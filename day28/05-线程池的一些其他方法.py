@@ -6,8 +6,8 @@ from threading import current_thread
 import time
 
 def func1(n):
-    time.sleep(1)
-    # print(n,current_thread().ident)
+    # time.sleep(1)
+    print(n,current_thread().ident)
     return n**2
 
 def func2(n):
@@ -17,13 +17,13 @@ def func2(n):
 
 
 if __name__ == '__main__':
-    # t_p = ThreadPoolExecutor(max_workers=50)
-    t_p = ProcessPoolExecutor(max_workers=50)
+    t_p = ThreadPoolExecutor(max_workers=10)
+    # t_p = ProcessPoolExecutor(max_workers=10)
     t_p.submit(func1,2).add_done_callback(func2)  #回调func2
 
     t_res_lst = []
 
-    for i in range(10000):
+    for i in range(100):
         res_obj = t_p.submit(func1,i)
         t_res_lst.append(res_obj)
     # t_p.submit(func,'changxiong')
