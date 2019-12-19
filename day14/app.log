@@ -1,0 +1,508 @@
+2019-07-23 17:16:03 - root - ERROR - 04日志处理: 刘伟，你在干什么？住手
+2019-07-23 17:16:03 - root - INFO - 04日志处理: 我叫信息
+2019-07-23 17:22:42 - root - CRITICAL - 04日志处理: 我是critical，级别高的错误输出
+2019-07-23 17:22:42 - root - ERROR - 04日志处理: 刘伟，你在干什么？住手
+2019-07-23 17:22:42 - root - WARNING - 04日志处理: 我是警告.
+2019-07-23 17:22:42 - root - INFO - 04日志处理: 我叫信息
+2019-07-23 17:22:42 - root - DEBUG - 04日志处理: 我是调试
+2019-07-23 17:22:42 - root - Level 2 - 04日志处理: 自定义
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 32, in <module>
+    raise StopIteration()
+StopIteration
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 34, in <module>
+    raise KeyError()
+KeyError
+
+2019-07-23 17:44:52 - root - ERROR - 04日志处理: Traceback (most recent call last):
+  File "C:/pythonStudy/day14/04日志处理.py", line 30, in <module>
+    raise FileNotFoundError("我是FileNoteFoundException...")
+FileNotFoundError: 我是FileNoteFoundException...
+
