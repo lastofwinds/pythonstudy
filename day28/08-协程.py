@@ -49,4 +49,12 @@ stop = time.time()
 diff = stop - start
 print(diff)
 
+'''
+    总结协程特点：
+        1.必须在只有一个单线程里实现并发
+        2.修改共享数据不需要枷锁
+        3.用户程序里自己保存多个控制流的上下文栈
+        4.一个协程遇到IO操作自动切换到其他协程(实现检测IO，yield/greenlet都无法实现，就到了gevent模块，select机制)
+'''
+
 
