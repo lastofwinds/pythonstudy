@@ -14,6 +14,7 @@ print('卡哪儿了')
 server.setblocking(False)
 
 rlist = []
+rl = []
 
 while 1:
     try:
@@ -28,5 +29,16 @@ while 1:
     print('rlist',rlist,len(rlist))
 
     for con in rlist:
-        from_client_msg = con.recv(1024)
-        print(from_client_msg)
+        try:
+            from_client_msg = con.recv(1024)
+        except BlockingIOError:
+            continue
+        except ConnectionResetError:
+            con.close()
+            rl.append(con)
+        print('>>>>',rl)
+    for remove_con in rl:
+        rlist.remove(remove_con)
+    rl.clear()
+
+
