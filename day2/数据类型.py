@@ -282,3 +282,28 @@
 #
 # print(lis)
 
+
+# 计算示例： 1-3+5-7+9-11.....99
+'''方法一'''
+# fu = 1
+# sum = 0
+#
+# for i in range(1,100,2):
+#     sum += fu * i
+#     fu = -fu
+# print(sum)
+
+'''方法二'''
+# sum = 0
+# lst = []
+# for i in range(1,100,2):
+#     lst.append(i)
+#
+# for i in range(len(lst)):
+#     if i % 2 == 0:
+#         sum += lst[i]
+#     else:
+#         sum -= lst[i]
+# print(sum)
+
+
