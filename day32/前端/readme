@@ -50,7 +50,20 @@ js:执行动作
                 method:提交的方式
             input:
                 type:文本类型
-                name:文本名称
+                    radio: 单选
+                    name: 如果两个单选name值一样，会产生相斥效果
+                    value: 单选的值
+                    checkbox: 多选
+                        name
+                        value
+                    file: 上传文件使用
+                        注意: 如果有文件需要提交服务器，method必须为post方法
+                    button: 闭合标签
+                            普通按钮
+                    submit: 提交按钮
+                    reset: 重置按钮
+             button: 普通的标签
+
            lable:
                  表单控制间的关系，当用户选择该标签时自动出现在浏览器上
             特点：
