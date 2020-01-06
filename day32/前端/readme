@@ -1,0 +1,59 @@
+html + css + js
+
+html css 都是静态定义，没什么逻辑，需要记住的内容
+javascript
+html:定义文档的结构
+css:定义文档的样式
+js:执行动作
+
+1.html
+    超文本标记语言
+
+2.body中标签的分类
+    -字体标签
+        h1-h6 标题标签
+
+    -字体大小
+        设置字体大小只能1-7，取值时，如果取值大于7那就按照7，小于1按1，如果需要更大的字体通过CSS样式解决
+        u:下划线
+        b:加粗
+        strong:强调
+在htm中都是标签，标签的作用：体现了语义化
+    标签分类：
+        1.行内标签
+            span a em i strong b
+            特点：
+                - 在一行内显示，不换行
+                - 不能设置宽高
+        2.块级标签
+            h1~h6
+            div
+            p: 只能放行内标签
+            ul:
+                unordered list:无数列表 他的子元素只能是li
+                .手机 电话卡
+                .电视 盒子
+                ul
+                    li
+                    li
+            ol:
+                ordered list:有序列表
+            dl
+                dd
+                dt
+            table
+                tr
+                    td
+                border="1" style="border-collapse:collapse;"
+            form
+                action:提交服务器地址
+                method:提交的方式
+            input:
+                type:文本类型
+                name:文本名称
+           lable:
+                 表单控制间的关系，当用户选择该标签时自动出现在浏览器上
+            特点：
+                - 独占一行
+                - 可以设置宽高，如果不设置宽高默认100%
+
