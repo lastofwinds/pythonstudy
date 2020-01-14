@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        .box1 #wrap2 div p{
-            color: red;
+        /*大标签样式的优先级比小标签样式的优先级更高*/
+        /*.box1 #wrap2 div p{*/
+            /*color: red;*/
+        /*}*/
+        body{
+            font-size: 12px;
         }
+
+        .box #wrap2 div p{
+            color: red;
+            font-size: 20px;
+        }
+        /*继承来的权重为0，与选中的标签没有可比性*/
         .box1 #wrap2 #wrap3 {
             color: green;
-            font-size: 20px;
-            background-color: blue;
-            text-align: right;
-            line-height: 40px;
+            /*font-size: 20px;*/
+            /*background-color: blue;*/
+            /*text-align: right;*/
+            /*line-height: 40px;*/
 
         }
 

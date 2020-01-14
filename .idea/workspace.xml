@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="add dirs">
-      <change afterPath="$PROJECT_DIR$/day32/前端二/03-css基本选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day32/前端二/04-高级选择器.html" afterDir="false" />
+    <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day32/前端二/07-同时继承的标签属性权重问题.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day32/前端二/06-权重深入.html" beforeDir="false" afterPath="$PROJECT_DIR$/day32/前端二/06-权重深入.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,19 +82,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day32/前端二/03-css基本选择器.html">
+        <entry file="file://$PROJECT_DIR$/day32/前端二/06-权重深入.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="323">
+              <caret line="29" column="7" lean-forward="true" selection-end-line="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day32/前端二/04-高级选择器.html">
+        <entry file="file://$PROJECT_DIR$/day32/前端二/07-同时继承的标签属性权重问题.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -138,9 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day25/01-队列进程Queue模块.py" />
-        <option value="$PROJECT_DIR$/day25/02-队列实现进程间的通信.py" />
-        <option value="$PROJECT_DIR$/day25/03-生产者消费者模型.py" />
         <option value="$PROJECT_DIR$/day25/04-生产者消费者模型主进程发送结束信号.py" />
         <option value="$PROJECT_DIR$/day25/JoinableQueue.py" />
         <option value="$PROJECT_DIR$/day24/01-锁Lock模块.py" />
@@ -189,12 +186,15 @@
         <option value="$PROJECT_DIR$/day32/前端二/css/03-css基本选择器.py" />
         <option value="$PROJECT_DIR$/day32/前端二/03-css基本选择器.html" />
         <option value="$PROJECT_DIR$/day32/前端二/04-高级选择器.html" />
+        <option value="$PROJECT_DIR$/day32/前端二/05-权重问题.html" />
+        <option value="$PROJECT_DIR$/day32/前端二/06-权重深入.html" />
+        <option value="$PROJECT_DIR$/day32/前端二/07-同时继承的标签属性权重问题.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="631" />
-    <option name="y" value="357" />
+    <option name="x" value="848" />
+    <option name="y" value="297" />
     <option name="width" value="1065" />
     <option name="height" value="733" />
   </component>
@@ -394,7 +394,7 @@
       <workItem from="1576732500319" duration="272000" />
       <workItem from="1576732782449" duration="8757000" />
       <workItem from="1576805439714" duration="80793000" />
-      <workItem from="1578900058505" duration="10558000" />
+      <workItem from="1578900058505" duration="18990000" />
     </task>
     <task id="LOCAL-00001" summary="add dirs">
       <created>1576736110286</created>
@@ -550,14 +550,49 @@
       <option name="project" value="LOCAL" />
       <updated>1577354149368</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add dirs">
+      <created>1578964957327</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1578964957327</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add dirs">
+      <created>1578964986687</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1578964986687</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add dirs">
+      <created>1578965342465</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1578965342465</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add dirs">
+      <created>1578971656366</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1578971656366</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add dirs">
+      <created>1578971675698</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1578971675698</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336330000" />
+    <option name="totallyTimeSpent" value="344762000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="831" y="406" width="1065" height="717" extended-state="0" />
+    <frame x="848" y="297" width="1065" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16915423" />
@@ -573,7 +608,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50149256" side_tool="true" weight="0.27757353" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50149256" side_tool="true" weight="0.27712855" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.20135364" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -628,56 +663,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day23/06-进程的其他方法terminate is_alive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day23/01-multiprocess模块.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day23/02-process_learn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day23/03-验证进程之间是空间隔离的.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day23/08-守护进程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/multiprocessing/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
@@ -1015,10 +1000,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day32/前端二/css/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day32/前端/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-581">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day32/前端二/04-高级选择器.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="399">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day32/前端二/05-权重问题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day32/前端二/06-权重深入.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="7" lean-forward="true" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day32/前端二/07-同时继承的标签属性权重问题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
