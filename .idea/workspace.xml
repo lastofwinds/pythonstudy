@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="add dirs">
-      <change afterPath="$PROJECT_DIR$/day29/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day32/前端二/03-css基本选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day32/前端二/04-高级选择器.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,12 +80,32 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day32/前端二/03-css基本选择器.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day32/前端二/04-高级选择器.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -117,9 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day24/时间Event模块.py" />
-        <option value="$PROJECT_DIR$/day24/事件Event模块.py" />
-        <option value="$PROJECT_DIR$/day24/02-信号量Semaphore模块.py" />
         <option value="$PROJECT_DIR$/day25/01-队列进程Queue模块.py" />
         <option value="$PROJECT_DIR$/day25/02-队列实现进程间的通信.py" />
         <option value="$PROJECT_DIR$/day25/03-生产者消费者模型.py" />
@@ -168,14 +186,17 @@
         <option value="$PROJECT_DIR$/day29/08-select客户端.py" />
         <option value="$PROJECT_DIR$/day29/07-select服务端多路复用示例.py" />
         <option value="$PROJECT_DIR$/day29/09-selectors模块介绍.py" />
+        <option value="$PROJECT_DIR$/day32/前端二/css/03-css基本选择器.py" />
+        <option value="$PROJECT_DIR$/day32/前端二/03-css基本选择器.html" />
+        <option value="$PROJECT_DIR$/day32/前端二/04-高级选择器.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="569" />
-    <option name="y" value="324" />
+    <option name="x" value="631" />
+    <option name="y" value="357" />
     <option name="width" value="1065" />
-    <option name="height" value="678" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,7 +215,13 @@
             <path>
               <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="day29" type="462c0819:PsiDirectoryNode" />
+              <item name="day32" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="day32" type="462c0819:PsiDirectoryNode" />
+              <item name="前端二" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,6 +230,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -341,7 +369,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.08-select客户端" />
-        <item itemvalue="Python.07-select服务端多路复用示例" />
         <item itemvalue="Python.07-select多路复用示例" />
         <item itemvalue="Python.02-gevent IO多路复用" />
         <item itemvalue="Python.06-完整版的非阻塞IO模型服务端" />
@@ -367,6 +394,7 @@
       <workItem from="1576732500319" duration="272000" />
       <workItem from="1576732782449" duration="8757000" />
       <workItem from="1576805439714" duration="80793000" />
+      <workItem from="1578900058505" duration="10558000" />
     </task>
     <task id="LOCAL-00001" summary="add dirs">
       <created>1576736110286</created>
@@ -526,12 +554,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="325772000" />
+    <option name="totallyTimeSpent" value="336330000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="520" y="458" width="1065" height="678" extended-state="0" />
+    <frame x="831" y="406" width="1065" height="717" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16616915" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16915423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -599,38 +628,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day24/01-锁Lock模块.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day24/ticket">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day21/模块subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day21/模块struct.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zabbix/zabbix_api.py" />
     <entry file="file://$PROJECT_DIR$/day23/06-进程的其他方法terminate is_alive.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -848,23 +845,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Program Files/Python3/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="409" column="40" selection-start-line="409" selection-start-column="36" selection-end-line="409" selection-end-column="40" />
-          <folding>
-            <element signature="e#1114#1124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Program Files/Python3/Lib/ntpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3591">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Program Files/Python3/Lib/os.py" />
+    <entry file="file://$PROJECT_DIR$/../Program Files/Python3/Lib/ntpath.py" />
     <entry file="file://$PROJECT_DIR$/day27/04-线程数据共享不安全.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -987,20 +969,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day29/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Program Files/Python3/Lib/selectors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="581" column="68" lean-forward="true" selection-start-line="581" selection-start-column="68" selection-end-line="581" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day29/test.py" />
+    <entry file="file://$PROJECT_DIR$/../Program Files/Python3/Lib/selectors.py" />
     <entry file="file://$PROJECT_DIR$/day29/09-selectors模块介绍.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
@@ -1022,6 +992,33 @@
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day32/前端二/02-css的三种引入方式.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day32/前端二/01-input标签.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day32/前端二/css/03-css基本选择器.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day32/前端二/03-css基本选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day32/前端二/04-高级选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
