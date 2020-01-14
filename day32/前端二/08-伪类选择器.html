@@ -3,8 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        body{
+            color: red;
+        }
+
+        /*a{*/
+            /*color: grey;*/
+        /*}*/
+        /*没有被访问过的a的颜色*/
+        a:link{
+            color: greenyellow;
+
+        }
+        /*访问过后的颜色*/
+        a:visited{
+            color: darkgreen;
+        }
+        /*鼠标悬浮时的状态*/
+        a:hover{
+            color: darkgrey;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        a:active{
+            color: darkblue;
+        }
+
+        .box{
+            color: green;
+            /*设置小手的状态*/
+            cursor: pointer;
+        }
+
+        .box>p{
+            display: none;
+        }
+
+        .box:hover p{
+            color: darkorange;
+            font-size: 20px;
+            display: block;
+        }
+
+        input {
+            border: 0;
+            outline: none;
+            width: 300px;
+            height: 40px;
+            border: 1px solid #999;
+            border-radius: 2px;
+        }
+
+
+    </style>
 </head>
 <body>
+    <input type="text">
+    <a href="#">百度一下</a>
+    <div class="box">
+        悬浮
+        <p>
+            李凯
+        </p>
 
+    </div>
 </body>
 </html>
+
