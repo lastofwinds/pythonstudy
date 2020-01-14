@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*1 2 1*/
+        .box1 .box2 #wrap3 p{
+            color: red;
+        }
+        /*1 1 2指向型样式选择器*/
+        #wrap1 .box2 div .active{
+            color: green;
+        }
+        /*2 0 1*/
+        /*#wrap1 #wrap2 div p{*/
+
+        /*}*/
+    </style>
+</head>
+<body>
+
+<div class="box1" id="wrap1">
+    <div class="box2" id="wrap2">
+        <div class="box3" id="wrap3">
+            <p class="box active">猜猜我的颜色</p>
+        </div>
+        <p>哈哈哈</p>
+    </div>
+<a href="#">百度一下</a>
+<span>嘉兴</span>
+
+</div>
+
+
+</body>
+</html>
+
