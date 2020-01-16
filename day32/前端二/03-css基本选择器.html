@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style type="text/css">
+<<<<<<< Updated upstream
         /*基准样式选择,不管标签多深都可以选中*/
+=======
+>>>>>>> Stashed changes
         div{
             color: red;
         }
@@ -12,6 +15,7 @@
             color: green;
         }
         .active{
+<<<<<<< Updated upstream
             color: yellow;
         }
         /*权重问题 数数数选择器的数量id class标签*/
@@ -31,6 +35,14 @@
     /*行内权重1000 > id 100 类 10>标签 1*/
     </style>
 
+=======
+            color: yellow;    /*优先于box*/
+        }
+        #box{
+            color: darkorange;  /*优先于.active*/
+        }
+    </style>
+>>>>>>> Stashed changes
 </head>
 <body>
     <div class="box active" id="box">
@@ -42,4 +54,10 @@
         </div>
     </div>
 </body>
+<<<<<<< Updated upstream
 </html>
+=======
+</html>
+
+
+>>>>>>> Stashed changes
