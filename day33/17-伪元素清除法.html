@@ -4,17 +4,43 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        div:before{
-            content: '鸡汤';
+        .top{
+            width: 100%;
+            background-color: darkorange;
+            /*height: 40px;*/
         }
-        div::after{
-            content: '鸡汤';
-            font-size: 20px;
+        .top .left{
+            width: 500px;
+            height: 40px;
+            float: left;
+            background-color: darkgreen;
+        }
+        .top .right{
+            width: 100px;
+            height: 40px;
+            float: right;
+            background-color: darkmagenta;
+        }
+        .header{
+            width: 500px;
+            height: 100px;
+            background-color: red;
+        }
+        .clearfix:after{
+            content: '.';
+            display: block;
+            display: none;
         }
     </style>
 </head>
 <body>
-    <div class="header"></div>
+
 </body>
+<div class="top clearfix">
+    <div class="left"></div>
+    <div class="right"></div>
+
+</div>
+<div class="header"></div>
 </html>
 
