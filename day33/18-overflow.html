@@ -3,6 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        body{
+            overflow: scroll;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+            /*overflow针对网页中某一块区域进行滚动*/
+            /*overflow: scroll;*/
+            /*overflow: auto;*/
+            /*overflow: hidden;*/
+            /*overflow: visible;*/
+
+            /*继承父盒子body*/
+            overflow: inherit;
+        }
+    </style>
 </head>
 <body>
     <div class="box">
@@ -10,3 +28,4 @@
     </div>
 </body>
 </html>
+
