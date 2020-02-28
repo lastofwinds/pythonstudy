@@ -8,6 +8,9 @@
             width: 100%;
             background-color: darkorange;
             /*height: 40px;*/
+            overflow: hidden;
+
+
         }
         .top .left{
             width: 500px;
@@ -26,20 +29,13 @@
             height: 100px;
             background-color: red;
         }
-        .clearfix:after{
-            content: '.';
-            display: block;
-            visibility: hidden;
-            height: 0;
-            /*display: none;*/
-            clear: both;
-        }
+
     </style>
 </head>
 <body>
 
 </body>
-<div class="top clearfix">
+<div class="top">
     <div class="left"></div>
     <div class="right"></div>
 
