@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+input,button{
+    border: 0;
+    outline: none;
+}
+
+body{
+    color: #333;
+    font-size: 14px;
+
+}
+
+.top{
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+    line-height: 40px;
+}
+
+.container{
+    width: 1226px;
+    /*让盒子居中*/
+    margin: 0 auto;
+}
+
+.top .top-l{
+    /*width: 800px;*/
+    float: left;
+    /*height: 40px;*/
+    /*文本垂直居中*/
+    /*line-height: 40px;*/
+}
+
+.top a{
+    color: #bbbbbb;
+}
+
+.top a:hover{
+    color: #ffffff;
+
+}
+
+.top .sep{
+    color: #424242;
+    margin: 0 0.2em;
+}
+
+.top .shopCart{
+    float: right;
+    /*line-height: 40px;*/
+}
+
+.top .login{
+    float: right;
+    margin-right: 10px;
+    /*line-height: 40px;*/
+}

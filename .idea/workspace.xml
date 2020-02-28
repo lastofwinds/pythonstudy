@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/day34/mi-project/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day34/mi-project/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,19 +82,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day33/18-overflow.html">
+        <entry file="file://$PROJECT_DIR$/day34/mi-project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="972">
+              <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day33/19-overflow清除浮动.html">
+        <entry file="file://$PROJECT_DIR$/day34/mi-project/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="578">
+              <caret line="66" column="23" lean-forward="true" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -104,6 +106,7 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -146,6 +149,8 @@
         <option value="$PROJECT_DIR$/day33/17-伪元素清除法.html" />
         <option value="$PROJECT_DIR$/day33/18-overflow.html" />
         <option value="$PROJECT_DIR$/day33/19-overflow清除浮动.html" />
+        <option value="$PROJECT_DIR$/day34/mi-project/index.html" />
+        <option value="$PROJECT_DIR$/day34/mi-project/css/index.css" />
       </list>
     </option>
   </component>
@@ -171,7 +176,7 @@
             <path>
               <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="day33" type="462c0819:PsiDirectoryNode" />
+              <item name="day34" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,6 +189,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -365,7 +371,7 @@
       <workItem from="1582703608129" duration="1131000" />
       <workItem from="1582705579960" duration="4965000" />
       <workItem from="1582779564871" duration="311000" />
-      <workItem from="1582779904527" duration="261000" />
+      <workItem from="1582779904527" duration="11785000" />
     </task>
     <task id="LOCAL-00001" summary="add dirs">
       <created>1576736110286</created>
@@ -647,16 +653,23 @@
       <option name="project" value="LOCAL" />
       <updated>1582779614423</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="add dirs">
+      <created>1582780175731</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1582780175735</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="436263000" />
+    <option name="totallyTimeSpent" value="447787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21104388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14674735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -787,15 +800,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day33/18-overflow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="308">
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day33/19-overflow清除浮动.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="-214">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day34/mi-project/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day34/mi-project/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="66" column="23" lean-forward="true" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
         </state>
       </provider>
     </entry>
