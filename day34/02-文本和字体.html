@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: #4f4f4f;
+            color: #0000FF;
+            /*左右居中*/
+            /*text-align: center;*/
+
+            /*垂直居中*/
+            /*line-height: 200px;*/
+
+            /*左右对其*/
+            text-align: justify;
+
+            /*字符串间距*/
+            /*letter-spacing: 1px;*/
+
+            /*首行缩进，建议单位使用em*/
+            /*text-indent: 2em;*/
+
+            /*下划线*/
+            /*text-decoration: underline;*/
+
+            /*默认*/
+            text-decoration: none;
+
+            /*字划线*/
+            /*text-decoration: line-through;*/
+        }
+        .box:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        span{
+            color: #0000FF;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        alex alex alex alex alex alex alex alex alex alex alex alex
+    </div>
+
+    <span onclick="add()">百度一下</span>
+
+    <script>
+        function add() {
+            // alert(1)
+            window.location.href = "http://www.baidu.com"
+        }
+    </script>
+</body>
+</html>
