@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .yeye{
+            width: 800px;
+            height: 800px;
+            background-color: yellow;
+        }
+
+        .father{
+            height: 500px;
+            width: 500px;
+            margin: 0 auto;
+            background-color: red;
+            position: relative;
+            padding: 50px;
+
+        }
+
+        .child1{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+
+            /*相对对象中绝对定位*/
+            position: absolute;
+            top: 200px;
+        }
+
+        .child2{
+            width: 200px;
+            height: 200px;
+
+            /*相对对象中绝对定位*/
+            background-color: darkorange;
+            position: absolute;
+            right: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="yeye">
+        <div class="father">
+            <div class="child1">
+
+            </div>
+            <div class="child2">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
