@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .father1,.father2{
+            width: 400px;
+            height: 400px;
+        }
+
+        .father1{
+            background-color: red;
+            position: absolute;
+
+            /*z-index越大显示优先级越高*/
+            z-index: 2;
+        }
+
+        .father2{
+            background-color: #B0FFB0;
+            position: absolute;
+            z-index: 3;
+        }
+
+        .child1,.child2{
+            width: 200px;
+            height: 200px;
+        }
+
+        .child1{
+            background-color: darkgoldenrod;
+            position: absolute;
+            top: 350px;
+            left: 450px;
+            z-index: 5;
+        }
+
+        .child2{
+            position: absolute;
+            background-color: darkmagenta;
+            left: 420px;
+            z-index: 2;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div class="father1">
+        <div class="child1"></div>
+    </div>
+
+    <div class="father2">
+        <div class="child2"></div>
+    </div>
+
+</body>
+</html>
