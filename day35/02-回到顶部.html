@@ -2,9 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+
+    <style>
+        .backTop{
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            background-color: black;
+            position: fixed;
+            right: 30px;
+            bottom: 30px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .backTop a{
+            color: #fff;
+        }
+
+    </style>
+
+
 </head>
-<body>
-$END$
+
+<body style="height: 2000px">
+    <div id="top"></div>
+
+    <div class="backTop">
+        <a href="javascript:void(0)">回到顶部</a>
+    </div>
+
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js">
+        $('a').click(function () {
+
+            $('body,html').animate(
+                {scrollTop:0},1000
+            );
+
+            $('a').css(
+                {color:'red'}
+            );
+
+        })
+
+        //     .css(
+        //     {color: 'red'}
+        // )
+    </script>
+
 </body>
 </html>
