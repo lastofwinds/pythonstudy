@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="add dirs">
-      <change afterPath="$PROJECT_DIR$/day35/05-固定定位与z-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day35/06-iconfont使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day35/common/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day35/font/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day35/font/demo_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day35/font/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day35/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day35/font/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day35/font/iconfont.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day35/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day35/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day35/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day35/font/iconfont.woff2" afterDir="false" />
+    <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day35/06-iconfont使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/day35/06-iconfont使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day35/common/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/day35/common/base.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,32 +81,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day35/06-iconfont使用.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="173">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day35/05-固定定位与z-index.html">
+        <entry file="file://$PROJECT_DIR$/day35/css/reset.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day35/common/base.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#185#1467#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="207">
+              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -189,16 +166,16 @@
         <option value="$PROJECT_DIR$/day35/03-z-index.html" />
         <option value="$PROJECT_DIR$/day35/04-父子的z-index.html" />
         <option value="$PROJECT_DIR$/day35/05-固定定位与z-index.html" />
-        <option value="$PROJECT_DIR$/day35/06-iconfont使用.html" />
         <option value="$PROJECT_DIR$/day35/common/base.css" />
+        <option value="$PROJECT_DIR$/day35/06-iconfont使用.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="836" />
-    <option name="y" value="406" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="832" />
+    <option name="y" value="366" />
     <option name="width" value="1076" />
-    <option name="height" value="559" />
+    <option name="height" value="646" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -218,18 +195,6 @@
               <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
               <item name="day35" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="day35" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="day35" type="462c0819:PsiDirectoryNode" />
-              <item name="font" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -428,14 +393,7 @@
       <workItem from="1582879657675" duration="36151000" />
       <workItem from="1583396093226" duration="714000" />
       <workItem from="1583907768638" duration="244000" />
-      <workItem from="1583908045225" duration="5425000" />
-    </task>
-    <task id="LOCAL-00003" summary="add dirs">
-      <created>1576740906643</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1576740906643</updated>
+      <workItem from="1583908045225" duration="10582000" />
     </task>
     <task id="LOCAL-00004" summary="add dirs">
       <created>1576826601946</created>
@@ -773,14 +731,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583910975452</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="add dirs">
+      <created>1583921038613</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1583921038613</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="490884000" />
+    <option name="totallyTimeSpent" value="496041000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="836" y="406" width="1076" height="559" extended-state="0" />
+    <frame x="832" y="366" width="1076" height="646" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20767717" />
@@ -1034,18 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day35/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day35/font/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day35/02-回到顶部.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -1081,27 +1034,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day35/06-iconfont使用.html">
+    <entry file="file://$PROJECT_DIR$/day35/font/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="212">
+          <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day35/05-固定定位与z-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="136">
           <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day35/img/查询.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day35/img/购物车 .png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/day35/common/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#185#1467#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day35/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day35/06-iconfont使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
