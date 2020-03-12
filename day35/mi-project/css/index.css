@@ -79,6 +79,7 @@ body{
     width: 320px;
     height: 100px;
     background: #6DDCBD;
+    z-index: 9999;
 }
 
 .shopCart:hover .goods{
@@ -182,7 +183,7 @@ input{
     border: 1px solid #e0e0e0;
     font-size: 14px;
 }
-.search form input.b{
+.search form input.iconfont{
     position: absolute;
     top: 0;
     right: 0;
