@@ -219,3 +219,19 @@ form .f{
 
 
 /*轮播图开始*/
+.swiper{
+    width: 100%;
+    position: relative;
+}
+
+
+.swiper a{
+    display: block;
+}
+
+.swiper a img{
+    width: 1226px;
+    height: 460px;
+}
+
+
