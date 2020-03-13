@@ -246,7 +246,7 @@ form .f{
     position: absolute;
     width: 190px;
     height: 460px;
-    background-color: white;
+    background-color: #000000;
     z-index: 9000;
 }
 
@@ -255,6 +255,11 @@ form .f{
     background-color: #000000;
     padding: 14px 10px 13px;
     color: #bbbbbb;
+}
+
+.category-swiper .category ul li a .iconfont{
+    position: absolute;
+    right: 10px;
 }
 
 
