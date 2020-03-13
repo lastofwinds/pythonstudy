@@ -78,7 +78,7 @@ body{
     display: none;
     width: 320px;
     height: 100px;
-    background: #6DDCBD;
+    background: #fff;
     z-index: 9999;
 }
 
@@ -110,7 +110,7 @@ body{
     float: left;
     width: 50px;
     height: 50px;
-    background: #6DDCBD;
+    background: #fff;
     margin-top: 25px;
 }
 
@@ -218,20 +218,45 @@ form .f{
 /*搜索样式结束*/
 
 
-/*轮播图开始*/
-.swiper{
-    width: 100%;
+/*商品导航和轮播图开始*/
+.category-swiper{
     position: relative;
+    height: 460px;
+    width: 100%;
+    background-image: url("data:img/1.jpg");
+}
+
+.category-swiper .container{
+    display: flex;
+    /*background-image: url("data:img/1.jpg");*/
 }
 
 
-.swiper a{
+.category-swiper .swiper{
+    width: 100%;
+    position: relative;
+
+}
+
+.category-swiper .category{
+    position: absolute;
+    width: 190px;
+    height: 460px;
+    background-color: #fff;
+    z-index: 9000;
+}
+
+
+
+
+.category-swiper .swiper a{
     display: block;
 }
 
-.swiper a img{
+.category-swiper .swiper a img{
     width: 1226px;
     height: 460px;
 }
 
 
+/*商品导航和轮播图结束*/
