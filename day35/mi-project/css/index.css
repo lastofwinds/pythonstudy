@@ -228,7 +228,6 @@ form .f{
 
 .category-swiper .container{
     display: flex;
-    /*background-image: url("data:img/1.jpg");*/
 }
 
 
@@ -238,25 +237,31 @@ form .f{
 
 }
 
-.category-swiper .category{
-    position: absolute;
-    width: 190px;
-    height: 460px;
-    background-color: #fff;
-    z-index: 9000;
-}
-
-
-
-
-.category-swiper .swiper a{
-    display: block;
-}
-
 .category-swiper .swiper a img{
     width: 1226px;
     height: 460px;
 }
+
+.category-swiper .category{
+    position: absolute;
+    width: 190px;
+    height: 460px;
+    background-color: white;
+    z-index: 9000;
+}
+
+.category-swiper .category ul li a{
+    display: block;
+    background-color: #000000;
+    padding: 14px 10px 13px;
+    color: #bbbbbb;
+}
+
+a{
+    text-decoration: none;
+    background-color: rgba(0,0,0,0);
+}
+
 
 
 /*商品导航和轮播图结束*/

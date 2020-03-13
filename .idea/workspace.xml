@@ -4,15 +4,6 @@
     <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day35/mi-project/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/day35/mi-project/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day35/mi-project/font/demo_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day35/mi-project/font/demo_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day35/mi-project/font/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/day35/mi-project/font/iconfont.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day35/mi-project/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/day35/mi-project/font/iconfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day35/mi-project/font/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/day35/mi-project/font/iconfont.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day35/mi-project/font/iconfont.json" beforeDir="false" afterPath="$PROJECT_DIR$/day35/mi-project/font/iconfont.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day35/mi-project/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/day35/mi-project/font/iconfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day35/mi-project/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/day35/mi-project/font/iconfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day35/mi-project/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/day35/mi-project/font/iconfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day35/mi-project/font/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/day35/mi-project/font/iconfont.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day35/mi-project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day35/mi-project/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day35/mi-project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="235" lean-forward="true" selection-start-line="235" selection-end-line="235" />
+            <state relative-caret-position="1275">
+              <caret line="227" column="24" selection-start-line="227" selection-start-column="24" selection-end-line="227" selection-end-column="24" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -104,17 +95,16 @@
                 <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day35/mi-project/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
+            <state relative-caret-position="593">
+              <caret line="254" column="30" lean-forward="true" selection-start-line="254" selection-start-column="30" selection-end-line="254" selection-end-column="30" />
               <folding>
                 <element signature="e#1#35#0" />
                 <element signature="e#38#68#0" />
@@ -129,39 +119,7 @@
                 <element signature="e#572#616#0" />
                 <element signature="e#632#735#0" />
                 <element signature="e#748#817#0" />
-                <element signature="e#835#991#0" />
-                <element signature="e#1015#1038#0" />
-                <element signature="e#1053#1084#0" />
-                <element signature="e#1097#1169#0" />
-                <element signature="e#1205#1245#0" />
-                <element signature="e#1267#1369#0" />
-                <element signature="e#1385#1415#0" />
-                <element signature="e#1435#1490#0" />
-                <element signature="e#1511#1531#0" />
-                <element signature="e#1547#1600#0" />
-                <element signature="e#1616#1693#0" />
-                <element signature="e#1712#1754#0" />
-                <element signature="e#1775#1862#0" />
-                <element signature="e#1898#1941#0" />
-                <element signature="e#1948#1985#0" />
-                <element signature="e#1998#2062#0" />
-                <element signature="e#2083#2244#0" />
-                <element signature="e#2272#2420#0" />
-                <element signature="e#2439#2554#0" />
-                <element signature="e#2564#2585#0" />
-                <element signature="e#2594#2615#0" />
-                <element signature="e#2640#2668#0" />
-                <element signature="e#2815#2836#2" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day35/mi-project/font/demo.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="90" column="28" lean-forward="true" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -279,20 +237,6 @@
               <item name="day35" type="462c0819:PsiDirectoryNode" />
               <item name="mi-project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="day35" type="462c0819:PsiDirectoryNode" />
-              <item name="mi-project" type="462c0819:PsiDirectoryNode" />
-              <item name="font" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="day35" type="462c0819:PsiDirectoryNode" />
-              <item name="mi-project" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -307,16 +251,16 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\python study\pythonstudy\day35" />
-      <recent name="D:\pythonstudy\day29" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python study\pythonstudy\day35\mi-project\font" />
       <recent name="D:\python study\pythonstudy\day34\mi-project\css" />
       <recent name="D:\python study\pythonstudy\day34\mi-project\common" />
       <recent name="D:\python study\pythonstudy\day34\mi-project\font" />
       <recent name="D:\Python study\day27" />
-      <recent name="D:\python study\day22\socket练习" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python study\pythonstudy\day35" />
+      <recent name="D:\pythonstudy\day29" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -495,14 +439,8 @@
       <workItem from="1583396093226" duration="714000" />
       <workItem from="1583907768638" duration="244000" />
       <workItem from="1583908045225" duration="31945000" />
-      <workItem from="1584062760754" duration="18629000" />
-    </task>
-    <task id="LOCAL-00009" summary="add dirs">
-      <created>1577079242471</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1577079242471</updated>
+      <workItem from="1584062760754" duration="21738000" />
+      <workItem from="1584100420365" duration="276000" />
     </task>
     <task id="LOCAL-00010" summary="add dirs">
       <created>1577080728847</created>
@@ -840,17 +778,24 @@
       <option name="project" value="LOCAL" />
       <updated>1584004782856</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="add dirs">
+      <created>1584090752168</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1584090752168</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="536033000" />
+    <option name="totallyTimeSpent" value="539418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11353944" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.114605546" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1116,13 +1061,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day35/mi-project/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day35/01-固定定位.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1165,13 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day35/mi-project/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day35/mi-project/img/2.webp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1185,10 +1116,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day35/mi-project/font/demo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day35/mi-project/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day35/mi-project/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day35/mi-project/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="235" lean-forward="true" selection-start-line="235" selection-end-line="235" />
+        <state relative-caret-position="1275">
+          <caret line="227" column="24" selection-start-line="227" selection-start-column="24" selection-end-line="227" selection-end-column="24" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1198,15 +1150,14 @@
             <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day35/mi-project/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
+        <state relative-caret-position="593">
+          <caret line="254" column="30" lean-forward="true" selection-start-line="254" selection-start-column="30" selection-end-line="254" selection-end-column="30" />
           <folding>
             <element signature="e#1#35#0" />
             <element signature="e#38#68#0" />
@@ -1221,37 +1172,7 @@
             <element signature="e#572#616#0" />
             <element signature="e#632#735#0" />
             <element signature="e#748#817#0" />
-            <element signature="e#835#991#0" />
-            <element signature="e#1015#1038#0" />
-            <element signature="e#1053#1084#0" />
-            <element signature="e#1097#1169#0" />
-            <element signature="e#1205#1245#0" />
-            <element signature="e#1267#1369#0" />
-            <element signature="e#1385#1415#0" />
-            <element signature="e#1435#1490#0" />
-            <element signature="e#1511#1531#0" />
-            <element signature="e#1547#1600#0" />
-            <element signature="e#1616#1693#0" />
-            <element signature="e#1712#1754#0" />
-            <element signature="e#1775#1862#0" />
-            <element signature="e#1898#1941#0" />
-            <element signature="e#1948#1985#0" />
-            <element signature="e#1998#2062#0" />
-            <element signature="e#2083#2244#0" />
-            <element signature="e#2272#2420#0" />
-            <element signature="e#2439#2554#0" />
-            <element signature="e#2564#2585#0" />
-            <element signature="e#2594#2615#0" />
-            <element signature="e#2640#2668#0" />
-            <element signature="e#2815#2836#2" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day35/mi-project/font/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="90" column="28" lean-forward="true" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
         </state>
       </provider>
     </entry>
