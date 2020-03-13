@@ -60,7 +60,7 @@ body{
 
 .top .shopCart{
     float: right;
-    background-color: #424242;
+    /*background-color: ;*/
     position: relative;
     /*line-height: 40px;*/
 }
@@ -78,7 +78,7 @@ body{
     display: none;
     width: 320px;
     height: 100px;
-    background: #fff;
+    background: white;
     z-index: 9999;
 }
 
@@ -149,7 +149,7 @@ body{
 .header-nav ul li a{
     display: block;
     padding: 28px 10px 38px;
-    color: #333333;
+    color: black;
     margin: 0;
 }
 
