@@ -250,17 +250,21 @@ form .f{
     z-index: 9000;
 }
 
-.category-swiper .category ul li a{
+.category-swiper .category ol li a{
     display: block;
     background-color: #000000;
-    padding: 14px 10px 13px;
+    /*padding: 14px 10px 13px;*/
+    height: 46px;
+    line-height: 46px;
     color: #bbbbbb;
+    padding-left: 20px;
 }
 
 
-.category-swiper .category ul li a .iconfont{
+.category-swiper .category ol li a i{
     position: absolute;
-    right: 10px;
+    right: 20px;
+    font-size: 14px;
 }
 
 
