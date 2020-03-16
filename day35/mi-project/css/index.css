@@ -34,6 +34,7 @@ body{
     width: 1226px;
     /*让盒子居中*/
     margin: 0 auto;
+    /*position: relative;*/
 }
 
 .top .top-l{
@@ -242,6 +243,34 @@ form .f{
     height: 460px;
 }
 
+.category-swiper .swiper .container>span{
+    position: absolute;
+    top: 42%;
+    width: 41px;
+    height: 69px;
+    background-image: url("../img/icon-slides.png");
+    background-repeat: no-repeat;
+}
+
+.swiper .container>span.next{
+    right: 0;
+    background-position: -125px 0;
+}
+
+.swiper .container>span.next:hover{
+    background-position: -42px 0;
+}
+
+.swiper .container>span.prev{
+    left: 190px;
+    background-position: -85px 0;
+}
+
+.swiper .container>span.prev:hover{
+    background-position: 0 0;
+}
+
+
 .category-swiper .category{
     position: absolute;
     width: 190px;
@@ -260,6 +289,10 @@ form .f{
     padding-left: 20px;
 }
 
+.category-swiper .category ol li a:hover{
+    background: #ff6700;
+    z-index: 9001;
+}
 
 .category-swiper .category ol li a i{
     position: absolute;
