@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+    <script>
+        // <!--声明变量-->
+        // var a = 2;
+
+    //    先声明
+    //     var a;
+    //     a = 2;
+    //     alert(a);
+
+    //    声明多个
+        var a = '2', b = 4, c = true;
+
+        //在console中显示调用的结果
+        console.log(a);
+
+        //typeof只能识别简单的字符串，列表元组视为对象
+        console.log(typeof a);
+        console.log(typeof b);
+        console.log(typeof c);
+
+        var str = "2019已过";
+        var str1 = "最新电影";
+
+        //高亮显示调用结果,只能显示数字部分，NaN(not a number)但是它是一个数值类型
+        console.log(parseInt(str));
+        console.log(parseInt(str1));
+
+        //检测是数值类型
+        console.log(typeof parseInt(str1));
+
+        //检测不是一个number类型，返回true
+        console.log(isNaN(str));
+
+        //检测是number类型返回false,而非NaN类型
+        console.log(isNaN(b));
+
+        //取整数截断不四舍五入
+        var str2 = 5.4 + 3.7;
+        console.log(parseInt(str2));
+
+
+    </script>
+</body>
+</html>
