@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day36/05-字符串拼接.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day36/06-数据类型转换.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,57 +11,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/python_study$process_learn.coverage" NAME="process_learn Coverage Results" MODIFIED="1575954618057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
-    <SUITE FILE_PATH="coverage/python_study$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1575600732907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/socket加密传输" />
-    <SUITE FILE_PATH="coverage/python_study$01_Manager.coverage" NAME="01-管道Manager进程池线程切换 Coverage Results" MODIFIED="1576476209144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day26" />
-    <SUITE FILE_PATH="coverage/python_study$05_.coverage" NAME="05-线程池的一些其他方法 Coverage Results" MODIFIED="1576726342034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
-    <SUITE FILE_PATH="coverage/python_study$07__.coverage" NAME="07-解决死锁线程 递归锁 Coverage Results" MODIFIED="1576549563915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27" />
-    <SUITE FILE_PATH="coverage/pythonstudy$07_select.coverage" NAME="07-select服务端多路复用示例 Coverage Results" MODIFIED="1577351260831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
-    <SUITE FILE_PATH="coverage/pythonstudy$08_.coverage" NAME="08-协程 Coverage Results" MODIFIED="1576831112262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
-    <SUITE FILE_PATH="coverage/python_study$01_Queue.coverage" NAME="01-队列进程Queue模块 Coverage Results" MODIFIED="1576139952097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day25" />
-    <SUITE FILE_PATH="coverage/python_study$yitian.coverage" NAME="yitian Coverage Results" MODIFIED="1575249568151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20" />
-    <SUITE FILE_PATH="coverage/pythonstudy$04_IOsocket.coverage" NAME="04-阻塞IO的socket客户端 Coverage Results" MODIFIED="1577251007906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
-    <SUITE FILE_PATH="coverage/pythonstudy$06_IO.coverage" NAME="06-完整版的非阻塞IO模型服务端 Coverage Results" MODIFIED="1577251626428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
-    <SUITE FILE_PATH="coverage/python_study$08_.coverage" NAME="08-信号量 Coverage Results" MODIFIED="1576553510781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27" />
-    <SUITE FILE_PATH="coverage/python_study$subprocess.coverage" NAME="模块subprocess Coverage Results" MODIFIED="1575449737165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22" />
-    <SUITE FILE_PATH="coverage/python_study$02_Semaphore.coverage" NAME="02-信号量Semaphore模块 Coverage Results" MODIFIED="1576113195893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day24" />
-    <SUITE FILE_PATH="coverage/python_study$01_.coverage" NAME="01-线程的一些其他方法 Coverage Results" MODIFIED="1576559462984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
-    <SUITE FILE_PATH="coverage/python_study$02_.coverage" NAME="02-事件队列 Coverage Results" MODIFIED="1576564448945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
-    <SUITE FILE_PATH="coverage/pythonstudy$05_IOsocket.coverage" NAME="05-阻塞IO的socket服务端 Coverage Results" MODIFIED="1577251166898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
-    <SUITE FILE_PATH="coverage/python_study$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1575600736468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/socket加密传输" />
-    <SUITE FILE_PATH="coverage/python_study$.coverage" NAME="进度条 Coverage Results" MODIFIED="1575601520503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22" />
-    <SUITE FILE_PATH="coverage/pythonstudy$07_GIL.coverage" NAME="07-GIL锁 Coverage Results" MODIFIED="1576810314077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
-    <SUITE FILE_PATH="coverage/python_study$udp_client.coverage" NAME="udp_client Coverage Results" MODIFIED="1575422697396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22" />
-    <SUITE FILE_PATH="coverage/python_study$server.coverage" NAME="server Coverage Results" MODIFIED="1575531270059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/socket练习" />
-    <SUITE FILE_PATH="coverage/python_study$05_JoinableQueue.coverage" NAME="05-JoinableQueue生产者消费者管理模型 Coverage Results" MODIFIED="1576202829450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day25" />
+    <SUITE FILE_PATH="coverage/python_study$ftp_client.coverage" NAME="ftp_client Coverage Results" MODIFIED="1575525249358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/socket练习" />
     <SUITE FILE_PATH="coverage/python_study$test.coverage" NAME="test Coverage Results" MODIFIED="1575856319920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/threading练习" />
-    <SUITE FILE_PATH="coverage/python_study$client.coverage" NAME="client Coverage Results" MODIFIED="1575531282643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/socket练习" />
     <SUITE FILE_PATH="coverage/python_study$03_.coverage" NAME="03-队列 Coverage Results" MODIFIED="1576566287101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
-    <SUITE FILE_PATH="coverage/python_study$01_re.coverage" NAME="01-re模块 Coverage Results" MODIFIED="1575020597141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20" />
+    <SUITE FILE_PATH="coverage/python_study$struct.coverage" NAME="模块struct Coverage Results" MODIFIED="1575517536421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22" />
+    <SUITE FILE_PATH="coverage/pythonstudy$10_greenlet.coverage" NAME="10-greenlet使用 Coverage Results" MODIFIED="1577068149040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
+    <SUITE FILE_PATH="coverage/python_study$05_Thread.coverage" NAME="05-Thread线程 Coverage Results" MODIFIED="1576478319063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day26" />
+    <SUITE FILE_PATH="coverage/pythonstudy$09_.coverage" NAME="09-通过生成器来实现单线程下的并发 Coverage Results" MODIFIED="1576833088899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
+    <SUITE FILE_PATH="coverage/pythonstudy$06_.coverage" NAME="06-回调函数 Coverage Results" MODIFIED="1576737723648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
+    <SUITE FILE_PATH="coverage/pythonstudy$11_gevent.coverage" NAME="11-gevent使用 Coverage Results" MODIFIED="1577080586688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
+    <SUITE FILE_PATH="coverage/pythonstudy$05_IOsocket.coverage" NAME="05-阻塞IO的socket服务端 Coverage Results" MODIFIED="1577251166898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
+    <SUITE FILE_PATH="coverage/python_study$Event.coverage" NAME="事件Event模块 Coverage Results" MODIFIED="1576137264795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day24" />
     <SUITE FILE_PATH="coverage/python_study$06_terminate_is_alive.coverage" NAME="06-进程的其他方法terminate is_alive Coverage Results" MODIFIED="1575971570381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
-    <SUITE FILE_PATH="coverage/pythonstudy$02_gevent_IO.coverage" NAME="02-gevent IO多路复用 Coverage Results" MODIFIED="1577251832890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
-    <SUITE FILE_PATH="coverage/python_study$udp_server.coverage" NAME="udp_server Coverage Results" MODIFIED="1575422694356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22" />
+    <SUITE FILE_PATH="coverage/python_study$07_.coverage" NAME="07-僵尸进程孤儿进程 Coverage Results" MODIFIED="1576033924319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
+    <SUITE FILE_PATH="coverage/python_study$01_re.coverage" NAME="01-re模块 Coverage Results" MODIFIED="1575020597141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20" />
+    <SUITE FILE_PATH="coverage/python_study$server.coverage" NAME="server Coverage Results" MODIFIED="1575531270059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/socket练习" />
+    <SUITE FILE_PATH="coverage/python_study$process_learn.coverage" NAME="process_learn Coverage Results" MODIFIED="1575954618057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
+    <SUITE FILE_PATH="coverage/pythonstudy$04_IOsocket.coverage" NAME="04-阻塞IO的socket客户端 Coverage Results" MODIFIED="1577251007906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
+    <SUITE FILE_PATH="coverage/pythonstudy$07_select.coverage" NAME="07-select服务端多路复用示例 Coverage Results" MODIFIED="1577351260831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
+    <SUITE FILE_PATH="coverage/python_study$01_multiprocess.coverage" NAME="01-multiprocess模块 Coverage Results" MODIFIED="1576206094099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
+    <SUITE FILE_PATH="coverage/python_study$.coverage" NAME="进度条 Coverage Results" MODIFIED="1575601520503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22" />
     <SUITE FILE_PATH="coverage/python_study$ftp_server.coverage" NAME="ftp_server Coverage Results" MODIFIED="1575525224946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/socket练习" />
     <SUITE FILE_PATH="coverage/python_study$06_.coverage" NAME="06-死锁现象 Coverage Results" MODIFIED="1576548635853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27" />
-    <SUITE FILE_PATH="coverage/pythonstudy$06_.coverage" NAME="06-回调函数 Coverage Results" MODIFIED="1576737723648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
-    <SUITE FILE_PATH="coverage/pythonstudy$08_select.coverage" NAME="08-select客户端 Coverage Results" MODIFIED="1577351262862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
-    <SUITE FILE_PATH="coverage/python_study$client2.coverage" NAME="client2 Coverage Results" MODIFIED="1575514290926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/socket练习" />
-    <SUITE FILE_PATH="coverage/python_study$04_.coverage" NAME="04-线程池 Coverage Results" MODIFIED="1576576909265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
-    <SUITE FILE_PATH="coverage/pythonstudy$09_.coverage" NAME="09-通过生成器来实现单线程下的并发 Coverage Results" MODIFIED="1576833088899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
-    <SUITE FILE_PATH="coverage/pythonstudy$11_gevent.coverage" NAME="11-gevent使用 Coverage Results" MODIFIED="1577080586688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
-    <SUITE FILE_PATH="coverage/pythonstudy$05_.coverage" NAME="05-线程池的一些其他方法 Coverage Results" MODIFIED="1576737266191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
-    <SUITE FILE_PATH="coverage/pythonstudy$03_IO.coverage" NAME="03-阻塞IO Coverage Results" MODIFIED="1577156101312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
-    <SUITE FILE_PATH="coverage/pythonstudy$10_greenlet.coverage" NAME="10-greenlet使用 Coverage Results" MODIFIED="1577068149040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
-    <SUITE FILE_PATH="coverage/python_study$ftp.coverage" NAME="ftp功能 Coverage Results" MODIFIED="1575875944778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/ftp功能" />
-    <SUITE FILE_PATH="coverage/python_study$Event.coverage" NAME="事件Event模块 Coverage Results" MODIFIED="1576137264795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day24" />
-    <SUITE FILE_PATH="coverage/python_study$07_.coverage" NAME="07-僵尸进程孤儿进程 Coverage Results" MODIFIED="1576033924319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
-    <SUITE FILE_PATH="coverage/python_study$01_multiprocess.coverage" NAME="01-multiprocess模块 Coverage Results" MODIFIED="1576206094099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
-    <SUITE FILE_PATH="coverage/python_study$ftp_client.coverage" NAME="ftp_client Coverage Results" MODIFIED="1575525249358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/socket练习" />
-    <SUITE FILE_PATH="coverage/python_study$module_yitain.coverage" NAME="module_yitain Coverage Results" MODIFIED="1575253262774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20" />
-    <SUITE FILE_PATH="coverage/python_study$05_join.coverage" NAME="05-join方法 Coverage Results" MODIFIED="1575969289780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
     <SUITE FILE_PATH="coverage/python_study$01_Lock.coverage" NAME="01-锁Lock模块 Coverage Results" MODIFIED="1576206015968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day24" />
-    <SUITE FILE_PATH="coverage/python_study$struct.coverage" NAME="模块struct Coverage Results" MODIFIED="1575517536421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22" />
-    <SUITE FILE_PATH="coverage/python_study$05_Thread.coverage" NAME="05-Thread线程 Coverage Results" MODIFIED="1576478319063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day26" />
+    <SUITE FILE_PATH="coverage/python_study$05_join.coverage" NAME="05-join方法 Coverage Results" MODIFIED="1575969289780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day23" />
+    <SUITE FILE_PATH="coverage/python_study$05_.coverage" NAME="05-线程池的一些其他方法 Coverage Results" MODIFIED="1576726342034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
+    <SUITE FILE_PATH="coverage/python_study$01_Queue.coverage" NAME="01-队列进程Queue模块 Coverage Results" MODIFIED="1576139952097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day25" />
+    <SUITE FILE_PATH="coverage/python_study$05_JoinableQueue.coverage" NAME="05-JoinableQueue生产者消费者管理模型 Coverage Results" MODIFIED="1576202829450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day25" />
+    <SUITE FILE_PATH="coverage/python_study$yitian.coverage" NAME="yitian Coverage Results" MODIFIED="1575249568151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20" />
+    <SUITE FILE_PATH="coverage/python_study$client2.coverage" NAME="client2 Coverage Results" MODIFIED="1575514290926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/socket练习" />
+    <SUITE FILE_PATH="coverage/python_study$ftp.coverage" NAME="ftp功能 Coverage Results" MODIFIED="1575875944778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/ftp功能" />
+    <SUITE FILE_PATH="coverage/python_study$01_Manager.coverage" NAME="01-管道Manager进程池线程切换 Coverage Results" MODIFIED="1576476209144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day26" />
+    <SUITE FILE_PATH="coverage/python_study$subprocess.coverage" NAME="模块subprocess Coverage Results" MODIFIED="1575449737165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22" />
+    <SUITE FILE_PATH="coverage/python_study$client.coverage" NAME="client Coverage Results" MODIFIED="1575531282643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/socket练习" />
+    <SUITE FILE_PATH="coverage/pythonstudy$08_.coverage" NAME="08-协程 Coverage Results" MODIFIED="1576831112262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
+    <SUITE FILE_PATH="coverage/python_study$02_.coverage" NAME="02-事件队列 Coverage Results" MODIFIED="1576564448945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
+    <SUITE FILE_PATH="coverage/python_study$07__.coverage" NAME="07-解决死锁线程 递归锁 Coverage Results" MODIFIED="1576549563915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27" />
+    <SUITE FILE_PATH="coverage/python_study$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1575600732907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/socket加密传输" />
+    <SUITE FILE_PATH="coverage/python_study$04_.coverage" NAME="04-线程池 Coverage Results" MODIFIED="1576576909265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
+    <SUITE FILE_PATH="coverage/python_study$02_Semaphore.coverage" NAME="02-信号量Semaphore模块 Coverage Results" MODIFIED="1576113195893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day24" />
+    <SUITE FILE_PATH="coverage/python_study$udp_server.coverage" NAME="udp_server Coverage Results" MODIFIED="1575422694356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22" />
+    <SUITE FILE_PATH="coverage/pythonstudy$02_gevent_IO.coverage" NAME="02-gevent IO多路复用 Coverage Results" MODIFIED="1577251832890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
+    <SUITE FILE_PATH="coverage/pythonstudy$08_select.coverage" NAME="08-select客户端 Coverage Results" MODIFIED="1577351262862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
+    <SUITE FILE_PATH="coverage/pythonstudy$07_GIL.coverage" NAME="07-GIL锁 Coverage Results" MODIFIED="1576810314077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
+    <SUITE FILE_PATH="coverage/pythonstudy$05_.coverage" NAME="05-线程池的一些其他方法 Coverage Results" MODIFIED="1576737266191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
+    <SUITE FILE_PATH="coverage/pythonstudy$06_IO.coverage" NAME="06-完整版的非阻塞IO模型服务端 Coverage Results" MODIFIED="1577251626428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
+    <SUITE FILE_PATH="coverage/python_study$08_.coverage" NAME="08-信号量 Coverage Results" MODIFIED="1576553510781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day27" />
+    <SUITE FILE_PATH="coverage/python_study$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1575600736468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22/socket加密传输" />
+    <SUITE FILE_PATH="coverage/python_study$module_yitain.coverage" NAME="module_yitain Coverage Results" MODIFIED="1575253262774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day20" />
+    <SUITE FILE_PATH="coverage/pythonstudy$03_IO.coverage" NAME="03-阻塞IO Coverage Results" MODIFIED="1577156101312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day29" />
+    <SUITE FILE_PATH="coverage/python_study$udp_client.coverage" NAME="udp_client Coverage Results" MODIFIED="1575422697396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day22" />
+    <SUITE FILE_PATH="coverage/python_study$01_.coverage" NAME="01-线程的一些其他方法 Coverage Results" MODIFIED="1576559462984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day28" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -82,28 +80,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day36/js/index.js">
+        <entry file="file://$PROJECT_DIR$/day35/mi-project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day36/05-字符串拼接.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="1530">
+              <caret line="160" column="48" selection-start-line="160" selection-start-column="48" selection-end-line="160" selection-end-column="48" />
+              <folding>
+                <element signature="n#style#0;n#i#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day36/06-数据类型转换.html">
+        <entry file="file://$PROJECT_DIR$/day35/mi-project/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="328">
+              <caret line="316" column="23" lean-forward="true" selection-start-line="316" selection-start-column="23" selection-end-line="316" selection-end-column="23" />
+              <folding>
+                <element signature="e#1#35#0" />
+                <element signature="e#38#68#0" />
+                <element signature="e#72#97#0" />
+                <element signature="e#111#148#0" />
+                <element signature="e#154#196#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +116,6 @@
       <list>
         <option value="Python Script" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -189,19 +189,12 @@
         <option value="$PROJECT_DIR$/day34/mi-project/index.html" />
         <option value="$PROJECT_DIR$/day35/mi-project/index.html" />
         <option value="$PROJECT_DIR$/day35/mi-project/css/index.css" />
-        <option value="$PROJECT_DIR$/day36/01-第一个js.html" />
-        <option value="$PROJECT_DIR$/day36/js/index.js" />
-        <option value="$PROJECT_DIR$/day36/02-定义变量.html" />
-        <option value="$PROJECT_DIR$/day36/03-数据类型.html" />
-        <option value="$PROJECT_DIR$/day36/04-运算符.html" />
-        <option value="$PROJECT_DIR$/day36/05-字符串拼接.html" />
-        <option value="$PROJECT_DIR$/day36/06-数据类型转换.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="780" />
-    <option name="y" value="305" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="843" />
+    <option name="y" value="240" />
     <option name="width" value="1076" />
     <option name="height" value="762" />
   </component>
@@ -211,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,12 +214,26 @@
             <path>
               <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="day36" type="462c0819:PsiDirectoryNode" />
+              <item name="day35" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="day35" type="462c0819:PsiDirectoryNode" />
+              <item name="mi-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="day35" type="462c0819:PsiDirectoryNode" />
+              <item name="mi-project" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,16 +244,16 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\python study\pythonstudy\day35" />
-      <recent name="D:\pythonstudy\day29" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\python study\pythonstudy\day35\mi-project\font" />
       <recent name="D:\python study\pythonstudy\day34\mi-project\css" />
       <recent name="D:\python study\pythonstudy\day34\mi-project\common" />
       <recent name="D:\python study\pythonstudy\day34\mi-project\font" />
       <recent name="D:\Python study\day27" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python study\pythonstudy\day35" />
+      <recent name="D:\pythonstudy\day29" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -430,9 +436,14 @@
       <workItem from="1584100420365" duration="366000" />
       <workItem from="1584100807106" duration="4093000" />
       <workItem from="1584341760285" duration="2292000" />
-      <workItem from="1584364376097" duration="417000" />
-      <workItem from="1584407336446" duration="1065000" />
-      <workItem from="1584411114165" duration="10890000" />
+      <workItem from="1584364376097" duration="1787000" />
+    </task>
+    <task id="LOCAL-00020" summary="add dirs">
+      <created>1577353071370</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1577353071370</updated>
     </task>
     <task id="LOCAL-00021" summary="add dirs">
       <created>1577353093327</created>
@@ -757,37 +768,29 @@
       <updated>1584364630533</updated>
     </task>
     <task id="LOCAL-00067" summary="add dirs">
-      <created>1584411027088</created>
+      <created>1584364798449</created>
       <option name="number" value="00067" />
       <option name="presentableId" value="LOCAL-00067" />
       <option name="project" value="LOCAL" />
-      <updated>1584411027088</updated>
+      <updated>1584364798449</updated>
     </task>
     <task id="LOCAL-00068" summary="add dirs">
-      <created>1584411121953</created>
+      <created>1584364958757</created>
       <option name="number" value="00068" />
       <option name="presentableId" value="LOCAL-00068" />
       <option name="project" value="LOCAL" />
-      <updated>1584411121953</updated>
+      <updated>1584364958757</updated>
     </task>
-    <task id="LOCAL-00069" summary="add dirs">
-      <created>1584421621378</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1584421621378</updated>
-    </task>
-    <option name="localTasksCounter" value="70" />
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="558265000" />
+    <option name="totallyTimeSpent" value="547680000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="780" y="305" width="1076" height="762" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22145669" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.117803834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -832,6 +835,62 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/day33/11-浮动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day33/10-标准文档流下的微观现象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day33/07-margin的垂直方向.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day33/14-浮动带来的问题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day33/15-清除浮动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day33/08-margin和padding使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day33/16-伪元素选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day33/17-伪元素清除法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day33/18-overflow.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1073,23 +1132,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day35/mi-project/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="311" lean-forward="true" selection-start-line="311" selection-end-line="311" />
-          <folding>
-            <element signature="e#1#35#0" />
-            <element signature="e#38#68#0" />
-            <element signature="e#72#97#0" />
-            <element signature="e#111#148#0" />
-            <element signature="e#154#196#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day35/mi-project/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
+        <state relative-caret-position="1530">
           <caret line="160" column="48" selection-start-line="160" selection-start-column="48" selection-end-line="160" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#i#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1099,59 +1144,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+    <entry file="file://$PROJECT_DIR$/day35/mi-project/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day36/01-第一个js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day36/02-定义变量.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day36/03-数据类型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day36/04-运算符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day36/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day36/05-字符串拼接.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day36/06-数据类型转换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="328">
+          <caret line="316" column="23" lean-forward="true" selection-start-line="316" selection-start-column="23" selection-end-line="316" selection-end-column="23" />
+          <folding>
+            <element signature="e#1#35#0" />
+            <element signature="e#38#68#0" />
+            <element signature="e#72#97#0" />
+            <element signature="e#111#148#0" />
+            <element signature="e#154#196#0" />
+          </folding>
         </state>
       </provider>
     </entry>
