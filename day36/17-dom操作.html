@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <button id="btn">隐藏</button>
+
+    <div id="box">
+
+    </div>
+
+
+
+    <script>
+        // 1.找开关
+        var oDiv = document.getElementById('box');
+        var oBtn = document.getElementById('btn');
+
+        // console.log(oDiv);
+        // console.dir(oDiv);
+
+        var isRed = true;
+    //    2.点一下 动作
+        oDiv.onclick = function(){
+            //alert(1);
+
+            if (isRed){
+                oDiv.style.backgroundColor = 'green';
+                console.log(oDiv.style);
+                isRed = false;
+            }else {
+                //3.灯亮了
+                oDiv.style.backgroundColor = 'red';
+                isRed = true;
+            }
+            console.log(oDiv.style);
+
+        };
+
+    // 点击动作
+        
+        // console.log(oBtn);
+        // console.dir(oDiv);
+
+        function hidden(){
+
+        }
+        oBtn.onclick = hidden()
+
+    </script>
+</body>
+</html>
