@@ -30,6 +30,7 @@
         // console.dir(oDiv);
 
         var isRed = true;
+        var isShow = true;
     //    2.点一下 动作
         oDiv.onclick = function(){
             //alert(1);
@@ -53,9 +54,17 @@
         // console.dir(oDiv);
 
         function hidden(){
-
+            if (isShow) {
+                oDiv.style.display = 'none';
+                isShow = false;
+                oBtn.innerText = '显示';
+            }else {
+                oDiv.style.display = 'block';
+                isShow = true;
+                oBtn.innerText = '隐藏';
+            }
         }
-        oBtn.onclick = hidden()
+        oBtn.onclick = hidden
 
     </script>
 </body>
