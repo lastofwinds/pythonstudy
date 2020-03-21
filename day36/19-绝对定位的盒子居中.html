@@ -18,6 +18,29 @@
             left: 50%;
             margin-left: -25px;
         }
+
+        input[type='text']{
+            font-size: 20px;
+        }
+
+        ul li:first-child{
+            color: #6DDCBD;
+        }
+
+        ul li:last-child{
+            color: #9a6e3a;
+        }
+
+        /*nth-child按照顺序往下指向子标签*/
+        ul li:nth-child(3){
+            color: #f5dd5d;
+        }
+
+        /*数学指向2的倍数位*/
+        ul li:nth-child(2n){
+            color: #6DDCBD;
+        }
+
     </style>
 </head>
 <body>
@@ -26,5 +49,18 @@
 
         </div>
     </div>
+
+    <input type="text">
+    <input type="password">
+    <input typeof="submit"></input>
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
 </body>
 </html>
