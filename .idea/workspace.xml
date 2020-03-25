@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day36/20-获取dom的方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36/21-js中的事件.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,10 +84,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day36/20-获取dom的方式.html">
+        <entry file="file://$PROJECT_DIR$/day36/21-js中的事件.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="339">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -137,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day33/17-伪元素清除法.html" />
         <option value="$PROJECT_DIR$/day33/18-overflow.html" />
         <option value="$PROJECT_DIR$/day33/19-overflow清除浮动.html" />
         <option value="$PROJECT_DIR$/day34/02-文本和字体.html" />
@@ -188,14 +187,15 @@
         <option value="$PROJECT_DIR$/day36/20-绝对定位盒子的居中.html" />
         <option value="$PROJECT_DIR$/day36/19-绝对定位的盒子居中.html" />
         <option value="$PROJECT_DIR$/day36/20-获取dom的方式.html" />
+        <option value="$PROJECT_DIR$/day36/21-js中的事件.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="511" />
-    <option name="y" value="291" />
+    <option name="x" value="836" />
+    <option name="y" value="296" />
     <option name="width" value="1076" />
-    <option name="height" value="687" />
+    <option name="height" value="755" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -452,14 +452,7 @@
       <workItem from="1584693778769" duration="3000" />
       <workItem from="1584762085912" duration="5787000" />
       <workItem from="1584800753726" duration="1613000" />
-      <workItem from="1584862800909" duration="9157000" />
-    </task>
-    <task id="LOCAL-00026" summary="add dirs">
-      <created>1578971656366</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1578971656366</updated>
+      <workItem from="1584862800909" duration="14405000" />
     </task>
     <task id="LOCAL-00027" summary="add dirs">
       <created>1578971675698</created>
@@ -797,17 +790,24 @@
       <option name="project" value="LOCAL" />
       <updated>1584768761607</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="add dirs">
+      <created>1585027871267</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1585027871268</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="612486000" />
+    <option name="totallyTimeSpent" value="617734000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="764" y="351" width="1076" height="687" extended-state="0" />
+    <frame x="836" y="296" width="1076" height="755" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18208662" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18208662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -852,13 +852,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day35/mi-project/font/demo_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="143" column="43" lean-forward="true" selection-start-line="143" selection-start-column="43" selection-end-line="143" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day35/mi-project/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1199,8 +1192,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day36/20-获取dom的方式.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="-1">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day36/21-js中的事件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
