@@ -6,7 +6,7 @@
     <style>
         *{
             padding: 0;
-            max-width: 0;
+            margin: 0;
         }
         .swiper{
             width: 1226px;
@@ -18,18 +18,36 @@
         .swiper span{
             position: absolute;
             right: 0;
-            top: 50%;
+            top: 40%;
             width: 41px;
             height: 69px;
-            background: url("img/icon-slides.png") no-repeat -125px 0;
+            background: green url("img/icon-slides.png") no-repeat -125px 0;
         }
     </style>
 </head>
 <body>
     <div class="swiper">
         <span id="next"></span>
+        <img src="img/1.jpg" alt="" id="redmi" width="1226" height="460">
     </div>
 
+    <script>
+        var oImg = document.getElementById('redmi');
+        var oNext = document.getElementById('next');
 
+        oImg.onmouseover = function () {
+            this.src = 'img/2.webp';
+        };
+
+        oImg.onmouseout = function () {
+            this.src = 'img/1.jpg';
+        };
+
+        oNext.onmouseover = function () {
+            console.log(this.backgroundPosition);
+        }
+
+
+    </script>
 </body>
 </html>
