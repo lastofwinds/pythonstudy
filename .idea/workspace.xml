@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day36/08-对象属性和标签属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day36/26-属性方法设置和获取.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day36/27-对象属性和标签属性的差异.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day36/25-img标签属性的操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/day36/25-img标签属性的操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day36/08-对象属性和标签属性.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,29 +84,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day36/25-img标签属性的操作.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day36/26-属性方法设置和获取.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day36/08-对象属性和标签属性.html">
+        <entry file="file://$PROJECT_DIR$/day36/27-对象属性和标签属性的差异.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="407">
+              <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -157,8 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day34/03-行高.html" />
-        <option value="$PROJECT_DIR$/day34/04-字体.html" />
         <option value="$PROJECT_DIR$/day34/05-背景.html" />
         <option value="$PROJECT_DIR$/day34/07-background-position.html" />
         <option value="$PROJECT_DIR$/day34/06-背景图和精灵图.html" />
@@ -208,14 +187,16 @@
         <option value="$PROJECT_DIR$/day36/26-属性方法设置和获取.html" />
         <option value="$PROJECT_DIR$/day36/25-img标签属性的操作.html" />
         <option value="$PROJECT_DIR$/day36/08-对象属性和标签属性.html" />
+        <option value="$PROJECT_DIR$/day36/27-对象属性和标签属性.html" />
+        <option value="$PROJECT_DIR$/day36/27-对象属性和标签属性的差异.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="698" />
-    <option name="y" value="525" />
+    <option name="x" value="287" />
+    <option name="y" value="240" />
     <option name="width" value="1076" />
-    <option name="height" value="631" />
+    <option name="height" value="761" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -223,6 +204,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,7 +221,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,14 +454,8 @@
       <workItem from="1585191463402" duration="10509000" />
       <workItem from="1585208283967" duration="5078000" />
       <workItem from="1585271615329" duration="1233000" />
-      <workItem from="1585286260886" duration="4187000" />
-    </task>
-    <task id="LOCAL-00029" summary="add dirs">
-      <created>1578996319072</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1578996319072</updated>
+      <workItem from="1585286260886" duration="4443000" />
+      <workItem from="1585531804527" duration="7604000" />
     </task>
     <task id="LOCAL-00030" summary="add dirs">
       <created>1579139385659</created>
@@ -818,17 +793,23 @@
       <option name="project" value="LOCAL" />
       <updated>1585211501325</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="add dirs">
+      <created>1585303359419</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1585303359419</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="620515000" />
+    <option name="totallyTimeSpent" value="628375000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="698" y="525" width="1076" height="631" extended-state="0" />
-    <editor active="true" />
+    <frame x="287" y="240" width="1076" height="761" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11811024" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16141732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -873,13 +854,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day36/04-运算符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day22/threading练习/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1193,22 +1167,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day36/25-img标签属性的操作.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="41" column="36" lean-forward="true" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        <state relative-caret-position="697">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day36/26-属性方法设置和获取.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day36/08-对象属性和标签属性.html">
+    <entry file="file://$PROJECT_DIR$/day36/img/小米logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day36/27-对象属性和标签属性的差异.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="407">
+          <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
         </state>
       </provider>
     </entry>

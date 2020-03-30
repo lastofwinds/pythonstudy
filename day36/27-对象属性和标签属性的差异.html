@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <input type="text" name="user" id="user">
+    <img src="./img/小米logo.png" alt="" id="aImg">
+    男<input type="radio" name="sex" checked="xxxx" id="nan">
+    女<input type="radio" name="sex" id="nv">
+
+    <script>
+
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+        var oInput = document.getElementById('user');
+        var oImg = document.getElementById('aImg');
+
+        console.dir(oInput); //DOM对象
+        console.log(oInput.type);
+        console.log(oInput.getAttribute('type'));
+
+        console.dir(oImg);
+        console.log(oImg.src);
+        console.log(oImg.getAttribute('src'));
+
+        console.log(   $('nan').checked); //对象的属性 单选框提交的后台 建议使用checked
+        console.log(   $('nan').getAttribute('checked')); //标签上属性
+    </script>
+</body>
+</html>
