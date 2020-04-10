@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day36/27-对象属性和标签属性的差异.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day37/01-dom关系获取.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day37/02-通过DOM操作对元素显示隐藏.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day36/08-对象属性和标签属性.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,11 +84,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day36/27-对象属性和标签属性的差异.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day37/01-dom关系获取.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+            <state relative-caret-position="153">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day37/02-通过DOM操作对元素显示隐藏.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -138,8 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day34/05-背景.html" />
-        <option value="$PROJECT_DIR$/day34/07-background-position.html" />
         <option value="$PROJECT_DIR$/day34/06-背景图和精灵图.html" />
         <option value="$PROJECT_DIR$/day34/07-轮播图演示.html" />
         <option value="$PROJECT_DIR$/day34/08-图的设置.html" />
@@ -189,12 +196,14 @@
         <option value="$PROJECT_DIR$/day36/08-对象属性和标签属性.html" />
         <option value="$PROJECT_DIR$/day36/27-对象属性和标签属性.html" />
         <option value="$PROJECT_DIR$/day36/27-对象属性和标签属性的差异.html" />
+        <option value="$PROJECT_DIR$/day37/01-dom关系获取.html" />
+        <option value="$PROJECT_DIR$/day37/02-通过DOM操作对元素显示隐藏.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="287" />
-    <option name="y" value="240" />
+    <option name="x" value="738" />
+    <option name="y" value="241" />
     <option name="width" value="1076" />
     <option name="height" value="761" />
   </component>
@@ -215,7 +224,7 @@
             <path>
               <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="day36" type="462c0819:PsiDirectoryNode" />
+              <item name="day37" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -455,14 +464,7 @@
       <workItem from="1585208283967" duration="5078000" />
       <workItem from="1585271615329" duration="1233000" />
       <workItem from="1585286260886" duration="4443000" />
-      <workItem from="1585531804527" duration="7604000" />
-    </task>
-    <task id="LOCAL-00030" summary="add dirs">
-      <created>1579139385659</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1579139385659</updated>
+      <workItem from="1585531804527" duration="14067000" />
     </task>
     <task id="LOCAL-00031" summary="add dirs">
       <created>1579167036180</created>
@@ -800,14 +802,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585303359419</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="add dirs">
+      <created>1585548358771</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1585548358772</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="628375000" />
+    <option name="totallyTimeSpent" value="634838000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="287" y="240" width="1076" height="761" extended-state="0" />
+    <frame x="738" y="241" width="1076" height="761" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16141732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -854,25 +863,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day22/threading练习/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day22/文件上传练习/ftp_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day22/文件上传练习/ftp_server.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1184,8 +1174,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day36/27-对象属性和标签属性的差异.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+        <state relative-caret-position="237">
+          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day37/01-dom关系获取.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day37/02-通过DOM操作对元素显示隐藏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
