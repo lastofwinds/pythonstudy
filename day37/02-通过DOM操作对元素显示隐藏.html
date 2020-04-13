@@ -3,8 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <style>
+        .active{
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <button id="btn">创建</button>
+    <button id="del">删除</button>
+
+    <div class="father">
+        <a href="#">wusir</a>
+        <!--<p class="active">alex</p>-->
+    </div>
+    <script>
+        var oBtn = document.querySelector('#btn');
+        var oDel = document.querySelector('#del');
+        var oFather = document.querySelector('.father');
+        var oP = null;
+        var oA = null;
+
+        oBtn.onclick = function () {
+            //1.创建dom 标签对象
+            oP = document.createElement('p');
+            oA = document.createElement('a');
+
+            //2.追加到父级标签中
+            oFather.appendChild(oP);
+            oFather.insertBefore(oA,oP);
+
+            // 设置属性的值
+            oA.href = 'http://www.baidu.com';
+
+            //3.设置值
+            oP.innerHTML = 'alex';
+            oA.innerText = '百度一下';
+
+            //4.设置属性
+            oP.setAttribute('class', 'active');
+        };
+
+        oDel.onclick = function () {
+            console.log(oP);
+            console.log(oA);
+            if (!oP){
+                return;
+            } else {
+                oFather.removeChild(oP);
+            }
+
+        }
+    </script>
 </body>
 </html>
