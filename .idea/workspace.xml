@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day37/01-dom关系获取.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day37/02-通过DOM操作对元素显示隐藏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day37/03-使用js模拟hover选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day37/04-选项卡.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day37/05-变量提升.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day37/06-js中创建对象.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,20 +86,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day37/01-dom关系获取.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day37/02-通过DOM操作对元素显示隐藏.html">
+        <entry file="file://$PROJECT_DIR$/day37/06-js中创建对象.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="730">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -147,10 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day34/06-背景图和精灵图.html" />
-        <option value="$PROJECT_DIR$/day34/07-轮播图演示.html" />
-        <option value="$PROJECT_DIR$/day34/08-图的设置.html" />
-        <option value="$PROJECT_DIR$/day34/09-相对定位.html" />
         <option value="$PROJECT_DIR$/day34/10-相对定位微调元素.html" />
         <option value="$PROJECT_DIR$/day34/11-绝对定位.html" />
         <option value="$PROJECT_DIR$/day35/03-z-index.html" />
@@ -198,12 +187,16 @@
         <option value="$PROJECT_DIR$/day36/27-对象属性和标签属性的差异.html" />
         <option value="$PROJECT_DIR$/day37/01-dom关系获取.html" />
         <option value="$PROJECT_DIR$/day37/02-通过DOM操作对元素显示隐藏.html" />
+        <option value="$PROJECT_DIR$/day37/04-选项卡.html" />
+        <option value="$PROJECT_DIR$/day37/03-使用js模拟hover选择器.html" />
+        <option value="$PROJECT_DIR$/day37/05-变量提升.html" />
+        <option value="$PROJECT_DIR$/day37/06-js中创建对象.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="738" />
-    <option name="y" value="241" />
+    <option name="x" value="723" />
+    <option name="y" value="475" />
     <option name="width" value="1076" />
     <option name="height" value="761" />
   </component>
@@ -213,7 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,6 +222,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -465,20 +458,7 @@
       <workItem from="1585271615329" duration="1233000" />
       <workItem from="1585286260886" duration="4443000" />
       <workItem from="1585531804527" duration="14067000" />
-    </task>
-    <task id="LOCAL-00031" summary="add dirs">
-      <created>1579167036180</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1579167036180</updated>
-    </task>
-    <task id="LOCAL-00032" summary="add dirs">
-      <created>1579260772256</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1579260772256</updated>
+      <workItem from="1586488232952" duration="15402000" />
     </task>
     <task id="LOCAL-00033" summary="add dirs">
       <created>1579351557712</created>
@@ -809,16 +789,31 @@
       <option name="project" value="LOCAL" />
       <updated>1585548358772</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="add dirs">
+      <created>1586488251772</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1586488251772</updated>
+    </task>
+    <task id="LOCAL-00081" summary="add dirs">
+      <created>1586762618075</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1586762618075</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="634838000" />
+    <option name="totallyTimeSpent" value="650240000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="738" y="241" width="1076" height="761" extended-state="0" />
+    <frame x="788" y="306" width="1076" height="761" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16141732" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15059055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -863,36 +858,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day22/文件上传练习/ftp_server.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day23/02-process_learn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day23/03-验证进程之间是空间隔离的.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day23/05-join方法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day24/02-信号量Semaphore模块.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1181,15 +1146,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day37/01-dom关系获取.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="288">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day37/02-通过DOM操作对元素显示隐藏.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="237">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day37/03-使用js模拟hover选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day37/04-选项卡.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day37/05-变量提升.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day37/06-js中创建对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
