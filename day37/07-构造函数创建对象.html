@@ -5,6 +5,34 @@
     <title>Title</title>
 </head>
 <body>
+    <script>
+        function Person(name,age) {
+            this.name = 'alex';
+            this.age = age;
+            this.fav = function () {
+                alert(this.name);
+            };
+
+        }
+
+        function Fruit(name, color) {
+            this.name = 'alex';
+            this.color = color;
+            this.fav = function () {
+                alert(this.name);
+            };
+        }
+
+        //创建对象使用new关键字
+        var p1 = new Person('alex',17);
+        var f1 = new Fruit('apple','red');
+
+        console.log(p1 instanceof Object);
+        console.log(f1 instanceof Object);
+        console.log(p1 instanceof Person);
+        console.log(f1 instanceof Fruit);
+
+    </script>
 
 </body>
 </html>
