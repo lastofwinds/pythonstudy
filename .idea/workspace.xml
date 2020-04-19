@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="add dirs">
+    <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day37/07-构造函数创建对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/day37/07-构造函数创建对象.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,11 +82,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day37/07-构造函数创建对象.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+            <state relative-caret-position="255">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day37/08-原型链方式创建对象.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -137,8 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day34/11-绝对定位.html" />
-        <option value="$PROJECT_DIR$/day35/03-z-index.html" />
         <option value="$PROJECT_DIR$/day35/04-父子的z-index.html" />
         <option value="$PROJECT_DIR$/day35/05-固定定位与z-index.html" />
         <option value="$PROJECT_DIR$/day35/common/base.css" />
@@ -188,12 +194,14 @@
         <option value="$PROJECT_DIR$/day37/05-变量提升.html" />
         <option value="$PROJECT_DIR$/day37/06-js中创建对象.html" />
         <option value="$PROJECT_DIR$/day37/07-构造函数创建对象.html" />
+        <option value="$PROJECT_DIR$/day37/09-原型链方式创建对象.html" />
+        <option value="$PROJECT_DIR$/day37/08-原型链方式创建对象.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="500" />
-    <option name="y" value="308" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="333" />
+    <option name="y" value="200" />
     <option name="width" value="1076" />
     <option name="height" value="761" />
   </component>
@@ -457,21 +465,7 @@
       <workItem from="1585531804527" duration="14067000" />
       <workItem from="1586488232952" duration="15402000" />
       <workItem from="1587124081675" duration="42000" />
-      <workItem from="1587197635934" duration="5620000" />
-    </task>
-    <task id="LOCAL-00033" summary="add dirs">
-      <created>1579351557712</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1579351557713</updated>
-    </task>
-    <task id="LOCAL-00034" summary="add dirs">
-      <created>1582172753604</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1582172753604</updated>
+      <workItem from="1587197635934" duration="6631000" />
     </task>
     <task id="LOCAL-00035" summary="add dirs">
       <created>1582343425289</created>
@@ -802,17 +796,30 @@
       <option name="project" value="LOCAL" />
       <updated>1586762618075</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="add dirs">
+      <created>1587299844345</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1587299844345</updated>
+    </task>
+    <task id="LOCAL-00083" summary="add dirs">
+      <created>1587302961978</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1587302961978</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="657995000" />
+    <option name="totallyTimeSpent" value="659006000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="333" y="200" width="1076" height="761" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10927505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20177165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -857,16 +864,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day24/01-锁Lock模块.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day21/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -1177,8 +1174,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day37/07-构造函数创建对象.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        <state relative-caret-position="255">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day37/08-原型链方式创建对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
