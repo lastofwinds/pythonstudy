@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function Person(name,age) {
+            this.name = 'alex';
+            this.age = age;
+            this.fav = function () {
+                alert(this.name);
+            };
+        }
+
+        Person.prototype.fav = function () {
+            console.log(this.name);
+
+        };
+        let p1 = new Person('alex',16);
+        p1.fav();
+
+    </script>
+</body>
+</html>
