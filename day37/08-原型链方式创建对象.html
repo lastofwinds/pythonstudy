@@ -21,6 +21,20 @@
         let p1 = new Person('alex',16);
         p1.fav();
 
+        //原型构造函数
+        class Fruit{
+            constructor(name,color){
+                this.name = name;
+                this.color = color;
+            }
+            //对象的单体模式
+            fav(){
+                console.log(this.name,this.color);
+            }
+        }
+
+        var f1 = new Fruit('apple','green');
+        f1.fav();
     </script>
 </body>
 </html>
