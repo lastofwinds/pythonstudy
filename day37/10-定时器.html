@@ -6,5 +6,32 @@
 </head>
 <body>
 
+    <div class="box" style="width: 200px;height: 200px;background-color: #3A7734; position: absolute; left: 0;top: 0;">
+
+    </div>
+    <script>
+        /*
+        var a = 2;
+        var b = 3;
+
+        //异步操作，需要等待几秒同步数据,一次性定时器
+        setTimeout(function () {
+            console.log('我出来了');
+        },5000);
+
+        var app = function () {
+            console.log('app');
+        };
+
+        app();
+        */
+        var bBox = document.querySelector('.box');
+
+        //周期性定时
+        setInterval(function () {
+            console.log(11111);
+        },2000);
+
+    </script>
 </body>
 </html>
