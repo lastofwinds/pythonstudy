@@ -25,12 +25,21 @@
 
         app();
         */
-        var bBox = document.querySelector('.box');
+        var oBox = document.querySelector('.box');
+
+        var count = 0;
+        var timer = null;
 
         //周期性定时
-        setInterval(function () {
-            console.log(11111);
-        },2000);
+        timer = setInterval(function () {
+            count+=5;
+            oBox.style.left = count + 'px';
+
+            if (count>500){
+                clearInterval(timer);
+            }
+
+        },100);
 
     </script>
 </body>
