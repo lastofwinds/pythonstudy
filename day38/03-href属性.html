@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        alex
+    </div>
+
+    <script>
+        var oDiv = document.getElementsByTagName('div')[0];
+
+        oDiv.onclick = function () {
+            //方法一,链接跳转
+            // location.href = 'http://www.baidu.com';
+
+        //    方法二,新建跳转窗口
+            open('http://www.baidu.com')
+        };
+    </script>
+</body>
+</html>
