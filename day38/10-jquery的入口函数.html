@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        /*
+        window.onload = function () {
+            alert(1)
+        };
+        window.onload = function () {
+            alert(2)
+        }
+        */
+
+
+    </script>
+</head>
+<body>
+    <script src="./libs/jquery-3.5.0.js">
+
+    </script>
+
+    <script>
+        //入口函数，返回的是jquery对象
+        // $(document).ready(function () {
+        //     alert(1);
+        // });
+        // $(document).ready(function () {
+        //     alert(2);
+        // })
+
+        //等待图片加载完成之后，才执行
+        $(window).ready(function () {
+            alert(1);
+        });
+
+        //文档加载完成后，会调用，简易写法
+        $(function () {
+            alert(1);
+        })
+    </script>
+</body>
+</html>

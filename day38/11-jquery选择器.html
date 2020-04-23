@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="box" id="wrap">
+        <p class="active">alex1</p>
+        <p class="active">alex2</p>
+        <p class="active">alex3</p>
+        <p class="active">alex4</p>
+        <p class="active">alex5</p>
+        <p class="active">alex6</p>
+    </div>
+
+    <script src="./libs/jquery-3.5.0.js">
+
+    </script>
+
+    <script>
+        $(function () {
+
+            //jquery选择器获取的是jquery对象 ,而不是js的DOM对象
+            console.log($('div'));
+            console.log($('#wrap'));
+            console.log($('.box'));
+            console.log($('#wrap .active'));
+
+            $('#wrap .active').click(function () {
+                // console.log(this.innerText);
+                // console.log($(this).text());
+                
+                $(this).text('haha');
+            
+                
+            });
+            
+            function text(val) {
+                if (val) {
+                    oDiv.innerText = val;
+                } else {
+                    return oDiv.innerText;
+                }
+            }
+        })
+    </script>
+</body>
+</html>
