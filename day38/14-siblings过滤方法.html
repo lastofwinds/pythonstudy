@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button>按钮1</button>
+    <button>按钮2</button>
+    <button>按钮3</button>
+    <button>按钮4</button>
+    <button>按钮5</button>
+    <script src="./libs/jquery-3.5.0.js"></script>
+
+    <script>
+        $(function () {
+            $('button').click(function () {
+                console.log($(this).css('backgroundColor','red'));
+                $(this).css('backgroundColor','red').siblings('button').css('backgroundColor','green');
+
+            })
+        })
+    </script>
+</body>
+</html>

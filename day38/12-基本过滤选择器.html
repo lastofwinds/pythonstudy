@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        <li>alex</li>
+        <li>ben</li>
+        <li>cecil</li>
+        <li>david</li>
+    </ul>
+
+    <script src="./libs/jquery-3.5.0.js"></script>
+
+    <script>
+        $(function () {
+            // $('li:eq(1)').css('color','red');
+            //获取值
+            console.log($('li:eq(1)').css('color'));
+            // $('li:eq(1)').css('color');
+
+
+            //设置单个或多个值
+            $('li:eq(1)').css({
+                'color':"yellow",
+                // backgroundColor:'red',
+                'background-color':'red',
+            });
+
+            //gt 表示过滤li标签中位置索引超过1的所有li，lt则相反
+            // $('li:gt(1)').css('color','red');
+
+            //过滤li中第一个元素，last相反则是最后一个元素
+            $('li:last').css('color','red');
+
+            $("input[type='text']").css({
+                backgroundColor:'red',
+            })
+
+        //    odd过滤奇数
+        //    even过滤偶数
+
+        })
+    </script>
+</body>
+</html>

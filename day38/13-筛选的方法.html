@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        <li>alex</li>
+        <li class="item">
+
+            <a href="">ben</a>
+        </li>
+        <li>cecil</li>
+        <li>david</li>
+    </ul>
+
+    <!--<input type="text">-->
+
+    <script src="./libs/jquery-3.5.0.js"></script>
+
+    <script>
+        $(function () {
+            //差找的是后代
+            console.log($('ul').find('a'));
+
+            //查找的是亲儿子，如果要获取指定亲儿子，使用children('选择器'),默认获取所有亲儿子
+            console.log($('ul').children('.item'));
+
+            //差找的只有亲爸
+            console.log($('a').parent());
+
+            //
+            console.log($('ul li').eq(2));
+        })
+
+
+    </script>
+</body>
+</html>
