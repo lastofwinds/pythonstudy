@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="javascript:void(0)">1</a>
+            <p>alex</p>
+        </li>
+        <li>
+            <a href="javascript:void(0)">1</a>
+            <p>ben</p>
+        </li>
+        <li>
+            <a href="javascript:void(0)">1</a>
+            <p>cecil</p>
+        </li>
+        <li>
+            <a href="javascript:void(0)">1</a>
+            <p>david</p>
+        </li>
+        <li>
+            <a href="javascript:void(0)">1</a>
+            <p>eval</p>
+        </li>
+
+    </ul>
+    <script src="./libs/jquery-3.5.0.js"></script>
+    <script>
+        //js中标签父子项方法分工明确，对子项js操作不影响父项，父项则会影响子项
+        $(function () {
+            $('ul li').click(function () {
+                $(this).children('a').css('background','green')
+            })
+        });
+
+        $(function () {
+            $('ul li').click(function () {
+                $(this).find('p').css('color','darkgreen').parent().siblings('li').find('p').css('color','blue')
+            })
+        })
+    </script>
+</body>
+</html>
