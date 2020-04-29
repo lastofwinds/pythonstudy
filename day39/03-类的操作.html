@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            display: none;
+        }
+
+        div.active{
+            display: block;
+        }
+
+    </style>
+
+</head>
+<body>
+    <button>显示</button>
+    <div class="box"></div>
+    <script src="./libs/jquery-3.5.0.js"></script>
+
+    <script>
+        $(function () {
+            var isHide = true;
+            $('button').click(function () {
+                /*
+                if (isHide){
+                    //对多个对象的操作
+                    $('.box').addClass('active aa bbb cc');
+                    isHide = false;
+                }else {
+                    $('.box').removeClass('active aa bbb');
+                    isHide = true;
+                }
+                */
+
+
+                $('.box').toggleClass('active')
+
+            })
+
+        })
+    </script>
+
+</body>
+</html>
