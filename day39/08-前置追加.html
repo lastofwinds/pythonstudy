@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="text">
+    <button id="append">追加</button>
+    <button id="prepend">前置追加</button>
+
+    <ul class="comment">
+        <li>alex</li>
+    </ul>
+
+    <script src="./libs/jquery-3.5.0.js"></script>
+
+    <script>
+        $(function () {
+            //后置追加
+            $('#append').click(function () {
+                let content = $('input[type=text]').val();
+
+                $('.comment').append(`<li>${content}</li>`);
+
+                $('input[type=text]').val('');
+            });
+            
+        //    前置追加
+            $('#prepend').click(function () {
+                let content = $('input[type=text]').val();
+
+                $('.comment').prepend(`<li>${content}</li>`);
+            })
+            
+            
+        })
+    </script>
+
+</body>
+</html>

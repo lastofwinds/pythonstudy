@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="text">
+    <button id="append">追加</button>
+
+    <ul class="comment">
+        <li>alex</li>
+    </ul>
+
+    <script src="./libs/jquery-3.5.0.js"></script>
+    <script>
+        $(function () {
+            //追加字符串
+            $('.comment').append('<li id="item">ben</li>');
+            
+            $('#item').click(function () {
+                alert($(this).text());
+            });
+
+            //追加js对象
+            var li = document.createElement('li');
+            li.innerText = 'wusir';
+            $('.comment').append(li);
+
+            setTimeout(function () {
+                $('.comment').append($('li').eq(0));
+            },2000);
+
+            $('<li>david</li>').appendTo('.comment');
+        })
+    </script>
+</body>
+</html>
