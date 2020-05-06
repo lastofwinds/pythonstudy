@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day39/06-文档操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day39/07-文档追加案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day39/08-前置追加.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day39/09-事件流.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day39/10-jquery中的事件冒泡.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day39/11-事件对象.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day39/08-前置追加.html" beforeDir="false" afterPath="$PROJECT_DIR$/day39/08-前置追加.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,28 +105,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day39/06-文档操作.html">
+        <entry file="file://$PROJECT_DIR$/day39/08-前置追加.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state relative-caret-position="187">
+              <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day39/07-文档追加案例.html">
+        <entry file="file://$PROJECT_DIR$/day39/09-事件流.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="9" lean-forward="true" selection-end-line="27" selection-end-column="7" />
+            <state relative-caret-position="68">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day39/10-jquery中的事件冒泡.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day39/08-前置追加.html">
+        <entry file="file://$PROJECT_DIR$/day39/11-事件对象.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="374">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -175,9 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day36/18绝对定位的盒子居中.html" />
-        <option value="$PROJECT_DIR$/day36/19-绝对定位的盒子居中.html" />
-        <option value="$PROJECT_DIR$/day36/22-对值的处理.html" />
         <option value="$PROJECT_DIR$/day36/23-对css的操作.html" />
         <option value="$PROJECT_DIR$/day36/24-对标签属性操作.html" />
         <option value="$PROJECT_DIR$/day36/26-属性方法设置和获取.html" />
@@ -226,14 +233,17 @@
         <option value="$PROJECT_DIR$/day39/06-文档操作.html" />
         <option value="$PROJECT_DIR$/day39/07-文档追加案例.html" />
         <option value="$PROJECT_DIR$/day39/08-前置追加.html" />
+        <option value="$PROJECT_DIR$/day39/09-事件流.html" />
+        <option value="$PROJECT_DIR$/day39/10-jquery中的事件冒泡.html" />
+        <option value="$PROJECT_DIR$/day39/11-事件对象.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="739" />
-    <option name="y" value="352" />
+    <option name="x" value="333" />
+    <option name="y" value="281" />
     <option name="width" value="1076" />
-    <option name="height" value="676" />
+    <option name="height" value="767" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -510,14 +520,7 @@
       <workItem from="1587950388382" duration="12076000" />
       <workItem from="1588124502622" duration="1581000" />
       <workItem from="1588136735088" duration="14058000" />
-      <workItem from="1588728259506" duration="5232000" />
-    </task>
-    <task id="LOCAL-00059" summary="add dirs">
-      <created>1584100701909</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1584100701909</updated>
+      <workItem from="1588728259506" duration="17474000" />
     </task>
     <task id="LOCAL-00060" summary="add dirs">
       <created>1584100815585</created>
@@ -855,11 +858,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588154449001</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="add dirs">
+      <created>1588734608314</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1588734608314</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="739762000" />
+    <option name="totallyTimeSpent" value="752004000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -871,7 +881,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="739" y="352" width="1076" height="676" extended-state="0" />
+    <frame x="333" y="281" width="1076" height="767" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19291338" />
@@ -919,30 +929,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day37/09-es6的函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day37/10-定时器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day38/02-location.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day38/01-BOM.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1266,10 +1252,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day39/10-jquery中的事件冒泡.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day39/09-事件流.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day39/08-前置追加.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        <state relative-caret-position="187">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day39/11-事件对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>

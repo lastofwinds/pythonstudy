@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="text">
+    <script src="./libs/jquery-3.5.0.js"></script>
+
+    <script>
+        $(function () {
+            function enter() {
+                alert(1)
+            }
+
+            $('input[type=text]').keydown(function (e) {
+                console.log(e.keyCode);
+                console.log(e.target);
+                console.log(e.currentTarget);
+                console.log(this);
+
+                // switch (e.keyCode) {
+                //     case 13:
+                //         enter();
+                //         break;
+                // }
+            })
+        })
+    </script>
+</body>
+</html>
