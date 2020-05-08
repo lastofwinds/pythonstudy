@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        <!--<li>-->
+            <!--<p class="title"></p>-->
+            <!--<p class="author"></p>-->
+            <!--<p class="stats"></p>-->
+            <!--<p class="addr"></p>-->
+        <!--</li>-->
+
+    </ul>
+
+    <script src="./libs/jquery-3.5.0.js"></script>
+
+    <script>
+        var data = {
+            status: 'ok',
+            lists:[
+                {
+                    title: '完美世界',
+                    author: '辰东',
+                    status: '连载中',
+                    addr: '起点中文网'
+                },
+                {
+                    title: '蛮荒记',
+                    author: '我吃西红柿',
+                    status: '连载中',
+                    addr: '起点中文网'
+                },
+                {
+                    title: '僻邪剑谱',
+                    author: 'alex',
+                    status: '连载中',
+                    addr: '起点中文网'
+                },
+            ]
+        };
+
+        if (data.status == 'ok'){
+            data.lists.forEach(function (item,index) {
+                $(`
+                    <li>
+                        <p class="title">${item.title}</p>
+                        <p class="author">${item.author}</p>
+                        <p class="stats">${item.status}</p>
+                        <p class="addr">${item.addr}</p>
+                    </li>
+                `).appendTo('ul');
+            })
+        }
+
+    </script>
+</body>
+</html>
