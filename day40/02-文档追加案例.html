@@ -8,6 +8,7 @@
     <input type="text">
 
     <button id="append">追加</button>
+    <button id="empty">清空</button>
 
     <ul class="comment"></ul>
 
@@ -17,10 +18,17 @@
         $(function () {
             $('#append').click(function () {
                 // console.log($('input[type=text]').val());
-                let content = $('input[type=text]').val()
+                let content = $('input[type=text]').val();
 
-                $('.comment').append(`<li>${content}</li>`)
+                $('.comment').append(`<li>${content}</li>`);
+
+            });
+
+            $('#empty').click(function () {
+                $('.comment').empty();
             })
+
+
         })
 
     </script>
