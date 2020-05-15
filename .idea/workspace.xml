@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08148d5c-a52a-475e-91af-09404d8fdd04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day40/03-合成事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day40/04-表单事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day40/05-事件委托.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/测试/01-测试学习.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,21 +104,17 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day40/03-合成事件.html">
+        <entry file="file://$PROJECT_DIR$/day40/05-事件委托.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="50" />
+            <state relative-caret-position="308">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day40/04-表单事件.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/测试/01-测试学习.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -128,8 +124,8 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -166,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day37/03-使用js模拟hover选择器.html" />
-        <option value="$PROJECT_DIR$/day37/05-变量提升.html" />
         <option value="$PROJECT_DIR$/day37/06-js中创建对象.html" />
         <option value="$PROJECT_DIR$/day37/07-构造函数创建对象.html" />
         <option value="$PROJECT_DIR$/day37/09-原型链方式创建对象.html" />
@@ -217,14 +211,16 @@
         <option value="$PROJECT_DIR$/day40/02-文档追加案例.html" />
         <option value="$PROJECT_DIR$/day40/03-合成事件.html" />
         <option value="$PROJECT_DIR$/day40/04-表单事件.html" />
+        <option value="$PROJECT_DIR$/day40/05-事件委托.html" />
+        <option value="$PROJECT_DIR$/测试/01-测试学习.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="594" />
-    <option name="y" value="338" />
+    <option name="x" value="2340" />
+    <option name="y" value="369" />
     <option name="width" value="1076" />
-    <option name="height" value="627" />
+    <option name="height" value="628" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -238,11 +234,6 @@
             <path>
               <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="day40" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -477,14 +468,8 @@
       <workItem from="1588995586240" duration="793000" />
       <workItem from="1589006241417" duration="9195000" />
       <workItem from="1589159646424" duration="9452000" />
-      <workItem from="1589246587049" duration="9214000" />
-    </task>
-    <task id="LOCAL-00067" summary="add dirs">
-      <created>1584411027088</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1584411027088</updated>
+      <workItem from="1589246587049" duration="14766000" />
+      <workItem from="1589521684346" duration="1953000" />
     </task>
     <task id="LOCAL-00068" summary="add dirs">
       <created>1584411121953</created>
@@ -822,11 +807,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589013207394</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="add dirs">
+      <created>1589268523125</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1589268523125</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="806119000" />
+    <option name="totallyTimeSpent" value="813624000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -838,10 +830,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="594" y="338" width="1076" height="627" extended-state="0" />
+    <frame x="2340" y="369" width="1076" height="628" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17519686" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17814961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -854,7 +846,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32854864" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.29826465" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.29757085" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -886,16 +878,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/43ebd020-ac0a-456b-aa97-9b5a490142df/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day1/mysql_connect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files/Python3/Lib/site-packages/pymysql/connections.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
@@ -1187,10 +1169,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day40/04-表单事件.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="187">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="50" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day40/05-事件委托.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试/01-测试学习.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
