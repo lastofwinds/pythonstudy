@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="title">
+        <h1>{{ title }}</h1>
+        <h2>{{ name }}</h2>
+    </div>
+
+    <div id="first_line">
+        {{ message }}
+    </div>
+
+    <script src="./libs/vue.js"></script>
+    <script>
+        // let变量和const常量
+        // let name = 'alex';
+        // const id = '001';
+        //
+        let title = new Vue({
+            el: '#title',  //用来挂载受管理的元素
+            data: {  //元素下的数据
+                title: 'Hello Vue!',
+                name: 'alex'
+            }
+        });
+
+        let first_line = new Vue({
+            el: '#first_line',
+            data: {
+                message: '1. study vue together'
+            }
+        })
+    </script>
+
+</body>
+</html>

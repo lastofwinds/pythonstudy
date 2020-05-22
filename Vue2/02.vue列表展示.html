@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <h1>{{ title }}</h1>
+        <ul>
+            <li v-for="item in movies">{{ item }}</li>
+        </ul>
+    </div>
+
+    <script src="./libs/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                title: '电影列表',
+                movies: ['盗梦空间', '肖申克的救赎', '阿甘正传', '我是传奇']
+            },
+        });
+
+        app.movies.push('海王');
+
+    </script>
+</body>
+</html>
