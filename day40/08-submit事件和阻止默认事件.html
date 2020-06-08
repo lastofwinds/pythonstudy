@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="javascript:void(0);">
+        <input type="text" name = 'username' value="">
+        <input type="submit">
+    </form>
+
+    <script type="text/javascript" src="./libs/jquery-3.5.0.js"></script>
+    <script>
+        $(function () {
+            $('form').submit(function (e) {
+                //1.将form充当div
+                //2.提交表单的时候，后台返回相应的数据
+                //3.将form表单的默认action行为阻止
+                e.preventDefault();
+                console.log(1111);
+            })
+        })
+    </script>
+</body>
+</html>

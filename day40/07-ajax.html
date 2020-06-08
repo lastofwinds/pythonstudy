@@ -5,15 +5,33 @@
     <title>Title</title>
 </head>
 <body>
+    <ul>
 
+    </ul>
+    <!--<img src="https://a.hecdn.net/img/plugin/190516/icon/c/150n.png">-->
     <script type="text/javascript" src="./libs/jquery-3.5.0.js"></script>
     <script>
         $(function () {
             $.ajax({
-                url: 'https://api.seniverse.com/v3/weather/now.json?key=PDkKjOzxWWFHEbBJw&location=beijing&language=zh-Hans&unit=c',
+                url: 'https://free-api.heweather.net/s6/weather/now',
                 type: 'get',
+                data: {
+                    location: 'beijing',
+                    key: 'fc23c72a74f54f41922fbc951f4d2c86',
+                },
+
+
                 success:function (data) {
-                    console.log(data)
+                    console.log(data);
+
+                    // var code = data.HeWeather6[0].now.cond_code;
+
+                    $('ul').html(`
+                        <li>
+                            <img src="https://a.hecdn.net/img/plugin/190516/icon/c/150n.png" alt="">
+                        </li>
+
+                    `)
                 },
                 error:function (err) {
                     console.log(err)
