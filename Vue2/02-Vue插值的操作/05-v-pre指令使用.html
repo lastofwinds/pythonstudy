@@ -6,18 +6,22 @@
 </head>
 <body>
     <div id="app">
-        {{ message }}
+        <h2>{{message}} at once</h2>
+
+        <!--将代码变成文本输出，变量不解释-->
+        <h2 v-pre>{{message}}</h2>
     </div>
 
     <script src="../libs/vue.js"></script>
+
     <script>
         const app = new Vue({
             el: '#app',
             data: {
-                message: '你好啊'
+                message: 'hello world.',
+                // name: 'alex'
             }
-        });
-
+        })
     </script>
 </body>
 </html>
