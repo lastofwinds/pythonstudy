@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <ol>
+            <li v-for="(m, index) in movies" v-bind:class="{red: changeRed == index}" v-on:click="change(index)">
+                {{m}}
+            </li>
+        </ol>
+    </div>
+
+    <script src="../libs/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                movies: ['海王','盗梦空间','变形金刚','钢铁侠'],
+                changeRed: -1
+            },
+            methods: {
+                change: function (index) {
+                    this.changeRed=index;
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>
