@@ -14,6 +14,7 @@
 <body>
     <div id="app">
         <h2 v-bind:style="{fontSize: finalSize + 'px',color: finalColor,backgroundColor: finalBackColor}">{{message}}</h2>
+        <h2 v-bind:style="getStyles()">{{message}}</h2>
     </div>
 
     <script src="../libs/vue.js"></script>
@@ -29,8 +30,8 @@
             },
 
             methods: {
-                getStyle: function f() {
-                    return {fontSize: finalSize + 'px',color: finalColor,backgroundColor: finalBackColor}
+                getStyles: function () {
+                    return {fontSize: this.finalSize + 'px',color: this.finalColor,backgroundColor: this.finalBackColor}
                 },
 
 
