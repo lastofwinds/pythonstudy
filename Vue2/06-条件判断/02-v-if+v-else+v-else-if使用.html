@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <h2 v-if="score>=90">
+            excellent
+        </h2>
+
+        <h2 v-else-if="score>=80">
+            good
+        </h2>
+
+        <h1 v-else>isShow is false display me</h1>
+    </div>
+
+
+    <script src="../libs/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                score: 81,
+                // isShow: true
+            },
+
+        })
+    </script>
+
+
+
+</body>
+</html>

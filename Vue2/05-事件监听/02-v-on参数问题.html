@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+
+        <button v-on:click="btn1Click()">按钮1</button>
+        <button v-on:click="btn2Click('alex')">按钮2</button>
+        <button v-on:click="btn3Click">按钮3</button>
+        <!--<button v-on:click="btnClick()">按钮4</button>-->
+
+    </div>
+
+
+    <script src="../libs/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                counter: 0
+            },
+            methods: {
+                btn1Click() {
+                    console.log("btnClick")
+                },
+                btn2Click(abc) {
+                    console.log('----',abc)
+                },
+                btn3Click(event) {
+                    console.log('----',event)
+                }
+
+            },
+
+        })
+    </script>
+
+
+
+</body>
+</html>
