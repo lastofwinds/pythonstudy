@@ -6,15 +6,17 @@
 </head>
 <body>
     <div id="app">
-        <h2 v-if="score>=90">
-            excellent
-        </h2>
+        <!--<h2 v-if="score>=90">-->
+            <!--excellent-->
+        <!--</h2>-->
 
-        <h2 v-else-if="score>=80">
-            good
-        </h2>
+        <!--<h2 v-else-if="score>=80">-->
+            <!--good-->
+        <!--</h2>-->
 
-        <h1 v-else>isShow is false display me</h1>
+        <!--<h1 v-else>isShow is false display me score < 80 </h1>-->
+
+        <h2>{{result}}</h2>
     </div>
 
 
@@ -23,9 +25,24 @@
         const app = new Vue({
             el: '#app',
             data: {
-                score: 81,
+                score: 99,
                 // isShow: true
             },
+            computed: {
+                result () {
+                    let messAge = '';
+                    if (this.score >= 90) {
+                        messAge = 'excellent'
+                    } else if (this.score >= 80) {
+                        messAge = 'good'
+                    } else if (this.score >= 60) {
+                        messAge = 'pass'
+                    } else {
+                        messAge = 'fail'
+                    }
+                    return messAge
+                }
+            }
 
         })
     </script>

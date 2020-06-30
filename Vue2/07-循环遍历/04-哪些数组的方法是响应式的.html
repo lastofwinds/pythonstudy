@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <li v-for="item in letters" :key="item">
+                {{item}}
+            </li>
+
+            <button @click="btnClick">submit</button>
+        </ul>
+    </div>
+
+
+    <script src="../libs/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                letters: ['a','b','c','d']
+            },
+            methods: {
+                btnClick() {
+                    //push方法添加一个元素
+                    // this.letters.push('aaa');
+
+                //    通过索引修改元素
+                //     this.letters[0] = 'bbb'
+
+                    //pop方法移除最后一个元素
+                    // this.letters.pop()
+
+                //    shift方法移除第一个元素
+                //     this.letters.shift()
+
+                //unshift方法在最前面添加元素
+                //     this.letters.unshift('aa')
+
+                //    splice方法截取一段元素,插入,替换
+                //     this.letters.splice(0,2)
+
+
+                }
+            }
+
+        })
+    </script>
+
+</body>
+</html>
