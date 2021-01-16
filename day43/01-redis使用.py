@@ -6,3 +6,4 @@ r = redis.Redis(host='localhost',port=6379)
 r.set('foo','Bar')
 print(r.get('foo'))
 
+print('123')
